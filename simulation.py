@@ -14,8 +14,8 @@ def run_dynamic_scenario(network, n_nodes, time_steps=20, p_request=0.5, p_fail=
     # for t in range(5):
         # visualize_network(network)
 
-        for node in network.nodes:
-            node.print_routing_table()
+        # for node in network.nodes:
+        #     node.print_routing_table()
         step_events = {"step": t+1, "events": []}
 
         #___________________________________________________________________________________________________________________________________________________-
