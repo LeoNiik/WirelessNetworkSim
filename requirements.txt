@@ -1,1 +1,5 @@
 pytest
+pip install streamlit
+pip install imageio
+pip install imageio[ffmpeg]
+streamlit run app.py
