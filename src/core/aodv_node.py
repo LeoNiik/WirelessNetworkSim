@@ -56,19 +56,19 @@ class aodv_node(SensorNode):
                 continue
             neighbor = network.get_node_by_id(neighbor_id)
             if neighbor:
-                self.seq += 1
-                self.broadcast_id += 1
-                rreq = RREQ(self.node_id, neighbor_id, self.seq)
-                rreq.broadcast_id = self.broadcast_id
-                self.seen_rreqs.add((rreq.source_id, rreq.broadcast_id))
+                # self.seq += 1
+                # self.broadcast_id += 1
+                # rreq = RREQ(self.node_id, neighbor_id, self.seq)
+                # rreq.broadcast_id = self.broadcast_id
+                # self.seen_rreqs.add((rreq.source_id, rreq.broadcast_id))
 
 
                 if verbose:
                     print(f"Node {self.node_id}: Sending initial RREQ to neighbor {neighbor_id}: [{rreq}]")
                 
                 self.msg_stats['rreq_sent'] += 1
-
-                neighbor.receive_RREQ(network, rreq, self.node_id, verbose)
+                self.send_RREQ(network, neighbor_id, verbose)
+                # neighbor.receive_RREQ(network, rreq, self.node_id, verbose)
 
 
     def broadcast_RREQ(self, network, dest_id, verbose=False):
@@ -144,7 +144,7 @@ class aodv_node(SensorNode):
                 network.queue.append((neighbor, forwarded_rreq, self.node_id))
 
 
-    def receive_MSG(self, msg_packet, network, sender_id, verbose=False):
+    def receive_MSsG(self, msg_packet, network, sender_id, verbose=False):
         """Receive a message and either consume it or forward it."""
         # print(f"Node {self.node_id}",msg_packet)
         
@@ -182,6 +182,57 @@ class aodv_node(SensorNode):
         return network.get_node_by_id(next_hop).receive_MSG(
             msg_packet, network, self.node_id, verbose
         )
+    
+    def receive_MSG(self, msg_packet, network, sender_id, verbose=False):
+        """Receive a message and either consume it or forward it."""
+        # Aggiungo il mio ID al path
+        msg_packet['path'].append(self.node_id)
+
+        # ————————————————————————————— Loop detection —————————————————————————————
+        dst_id = msg_packet['dst']
+        next_hop = None
+        if dst_id in self.routing_table:
+            next_hop = self.routing_table[dst_id].next_hop
+
+        if next_hop in msg_packet['path']:
+            if verbose:
+                print(f"Node {self.node_id}: loop detected via next_hop {next_hop}, invalidating route to {dst_id}")
+            # 1) Invalido la rotta corrotta
+            del self.routing_table[dst_id]
+            # 2) Invio RERR verso i vicini
+            self.send_RERR([dst_id], network, verbose=verbose)
+            # 3) Se sono il mittente, rilancio route discovery
+            if msg_packet['src'] == self.node_id:
+                if verbose:
+                    print(f"Node {self.node_id}: restarting the discovery of the path for {dst_id}")
+                network.route_discovery(self.node_id, dst_id, verbose)
+            # Stoppo qui il forwarding
+            return None, msg_packet['path'], msg_packet.get('cost')
+        # ——————————————————————————————————————————————————————————————————————
+
+        # Aggiorno hops e cost
+        msg_packet['hops'] += 1
+        msg_packet['cost'] += network.get_link_cost(self.node_id, sender_id)
+
+        # Se sono la destinazione, consegno localmente
+        if self.node_id == dst_id:
+            self.msg_stats['data_recv'] += 1
+            self.received_msgs.append(copy.deepcopy(msg_packet))
+            if verbose:
+                print(f"Node {self.node_id}: Received message from {msg_packet['src']} via path {msg_packet['path']}")
+            return msg_packet['hops'], msg_packet['path'], msg_packet['cost']
+
+        # Altrimenti inoltro o innesco discovery
+        if dst_id not in self.routing_table:
+            if verbose:
+                print(f"Node {self.node_id}: No route to destination {dst_id}, initiating route discovery.")
+            network.route_discovery(self.node_id, dst_id, verbose)
+
+        next_hop = self.routing_table[dst_id].next_hop
+        return network.get_node_by_id(next_hop).receive_MSG(
+            msg_packet, network, self.node_id, verbose
+        )
+
 
     def can_send(self, dst_node):
         dst_id = dst_node.node_id
@@ -214,9 +265,6 @@ class aodv_node(SensorNode):
         next_node = self.network.get_node_by_id(next_hop)
         # return next_node.can_send(dst_node)
         return True
-
-    #TODO
-
 
     def send_RERR(self, unreachable_nodes, network, verbose=False):
         """Send a Route Error (RERR) to notify about unreachable nodes."""

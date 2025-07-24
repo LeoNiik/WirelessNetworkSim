@@ -92,6 +92,7 @@ def main(args):
     n_nodes = int(args.n)
     verbose=args.v
     seed = args.seed
+    time_steps = int(args.t)
     # seed = 1751548377
     print("Random seed:", seed)
     
@@ -106,7 +107,7 @@ def main(args):
     run_dynamic_scenario(
         network=network,
         n_nodes=n_nodes,
-        time_steps=10,
+        time_steps=time_steps,
         p_request=0.3,
         p_fail=0.2,
         p_new=0.1,
@@ -119,6 +120,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('-n', required=False, default=10, type=int)
+    parser.add_argument('-t', required=False, default=25, type=int)
     parser.add_argument('-v', required=False, default=False, action='store_true', help="Enable verbose output")
     parser.add_argument('--seed', required=False, default=int(time.time()), type=int, help="Random seed for reproducibility")
     args = parser.parse_args()
