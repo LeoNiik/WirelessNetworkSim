@@ -88,8 +88,9 @@ def run_dynamic_scenario(network, n_nodes, time_steps=20, p_request=0.5, p_fail=
 def main(args):
     n_nodes = int(args.n)
     verbose=args.v
+    seed = 1753365736
     # seed = args.seed
-    seed = int(time.time())
+    # seed = int(time.time())
     # seed = 1750940548 # error in update aggiunto >= in seq number so below code is unreachable
     # seed = 1750942460 #error the packet is looping in triangle
     

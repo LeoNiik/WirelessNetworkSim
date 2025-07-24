@@ -29,31 +29,47 @@ def generate_all_steps(net, n_nodes, time_steps, p_req, p_fail, p_new):
     lst = []
     for t in range(time_steps):
         events = []
+
         # PACKET
         if random.random() < p_req:
             src = random.randrange(n_nodes)
             dst = src
             while dst == src:
                 dst = random.randrange(n_nodes)
-            _, hops = net.simulate_message_transmission(
+
+            result = net.simulate_message_transmission(
                 source_node=net.nodes[src],
                 target_node=net.nodes[dst],
                 message=f"Hi from Node {src} to Node {dst}"
             )
-            events.append(f"Packet {src}->{dst}, hops: {hops}")
+
+            # Controlla se result è una tupla (path, hops) oppure solo hops
+            if result is None:
+                events.append(f"Packet {src}->{dst} failed (no route)")
+            elif isinstance(result, tuple) and len(result) == 2:
+                path, hops = result
+                events.append(f"Packet {src}->{dst}, hops: {hops}, path: {path}")
+            elif isinstance(result, int):
+                hops = result
+                events.append(f"Packet {src}->{dst}, hops: {hops}")
+            else:
+                events.append(f"Packet {src}->{dst} sent (unknown format)")
+
         # LINK FALLITO
         if random.random() < p_fail and net.get_all_links():
-            a,b,_ = random.choice(net.get_all_links())
-            net.remove_link(a,b)
+            a, b, _ = random.choice(net.get_all_links())
+            net.remove_link(a, b)
             events.append(f"Link removed: {a}-{b}")
+
         # NUOVO LINK
         if random.random() < p_new:
             pairs = net.get_unconnected_pairs()
             if pairs:
-                a,b = random.choice(pairs)
-                d = random.uniform(0.1,1.0)
-                net.add_link(a,b,delay=d)
+                a, b = random.choice(pairs)
+                d = random.uniform(0.1, 1.0)
+                net.add_link(a, b, delay=d)
                 events.append(f"Link added: {a}-{b} (delay={d:.2f})")
+
         if not events:
             events = ["No events"]
 
@@ -63,30 +79,31 @@ def generate_all_steps(net, n_nodes, time_steps, p_req, p_fail, p_new):
         lst.append((t+1, events, img))
     return lst
 
+
 # --- INIZIALIZZA session_state ---
-for key in ("all_steps","current_index","network","generated","run_requested"):
+for key in ("all_steps", "current_index", "network", "generated", "run_requested"):
     if key not in st.session_state:
         st.session_state[key] = (
-            False if key in ("generated","run_requested")
-            else []   if key=="all_steps"
-            else -1   if key=="current_index"
+            False if key in ("generated", "run_requested")
+            else []   if key == "all_steps"
+            else -1   if key == "current_index"
             else None
         )
 
 # --- HEADER + BOTTONI ---
 st.title("Step-by-Step Sensor Network Simulation")
-c1,c2,c3,c4,_ = st.columns([5,5,5,5,20])
+c1, c2, c3, c4, _ = st.columns([5, 5, 5, 5, 20])
 
 # Run imposta run_requested
 run = c1.button("Run Simulation")
 if run:
     if os.path.exists(VIDEO_PATH):
         os.remove(VIDEO_PATH)
-    st.session_state.all_steps      = []
-    st.session_state.current_index  = -1
-    st.session_state.generated      = False
-    st.session_state.run_requested  = True
-    st.session_state.network        = None
+    st.session_state.all_steps = []
+    st.session_state.current_index = -1
+    st.session_state.generated = False
+    st.session_state.run_requested = True
+    st.session_state.network = None
 
 # Se mi era stato richiesto, genero alla successiva render
 if st.session_state.run_requested and not st.session_state.generated:
@@ -94,12 +111,12 @@ if st.session_state.run_requested and not st.session_state.generated:
     net = SensorNetwork()
     net.create_random_network(n_nodes, seed=seed, area_size=10)
     net.neighbor_discovery(verbose=False)
-    st.session_state.all_steps     = generate_all_steps(
+    st.session_state.all_steps = generate_all_steps(
         net, n_nodes, steps, p_req, p_fail, p_new
     )
-    st.session_state.network       = net
+    st.session_state.network = net
     st.session_state.current_index = -1
-    st.session_state.generated     = True
+    st.session_state.generated = True
     st.session_state.run_requested = False
 
 # Disabilita nav finché non ho generated
@@ -127,7 +144,7 @@ finished = (st.session_state.current_index + 1) == len(st.session_state.all_step
 
 # --- DISPLAY LOG + IMMAGINE passo corrente ---
 if history:
-    left, right = st.columns([4.5,4.5])
+    left, right = st.columns([4.5, 4.5])
     with left:
         st.subheader("Logs")
         st.table([{"Step": h["step"], "Log": "\n".join(h["events"])} for h in history])
@@ -141,32 +158,62 @@ if finished and st.session_state.network:
     st.info("Simulation finished.")
     st.markdown("---")
     st.subheader("Adjacency List Representation")
-    adj = {n.node_id:{} for n in st.session_state.network.nodes}
-    for a,b,d in st.session_state.network.get_all_links():
+    adj = {n.node_id: {} for n in st.session_state.network.nodes}
+    for a, b, d in st.session_state.network.get_all_links():
         adj[a][b] = d
         adj[b][a] = d
     lines = []
     for nid in sorted(adj):
-        parts = [f"{nbr} (delay: {adj[nid][nbr]:.2f})"
-                 for nbr in sorted(adj[nid])]
+        parts = [f"{nbr} (delay: {adj[nid][nbr]:.2f})" for nbr in sorted(adj[nid])]
         lines.append(f"[{nid}]: {', '.join(parts)}")
     st.code("\n".join(lines), language=None)
+    
+    # --- STATISTICHE DELL'ESECUZIONE ---
+    st.subheader("📊 Execution Statistics")
+
+    total_stats = {
+        "rreq_sent": 0, "rreq_recv": 0,
+        "rrep_sent": 0, "rrep_recv": 0,
+        "rerr_sent": 0, "rerr_recv": 0,
+        "data_sent": 0, "data_recv": 0,
+    }
+
+    for node in st.session_state.network.nodes:
+        for key in total_stats:
+            total_stats[key] += node.msg_stats.get(key, 0)
+
+    total_exchanged = sum(total_stats.values())
+    total_useful = total_stats["data_recv"]
+    efficiency = total_useful / total_exchanged if total_exchanged > 0 else 0
+
+    # Mostra tabella
+    st.table([
+        {"Metric": "Total packets exchanged", "Value": total_exchanged},
+        {"Metric": "Useful packets (data received)", "Value": total_useful},
+        {"Metric": "Efficiency (useful / total)", "Value": f"{efficiency:.3f}"},
+    ])
+
+    with st.expander("📦 Detailed Message Counts per Type"):
+        st.json(total_stats)
+
+
 
     # Bottone per generare e mostrare il video
     if st.button("Generate Video"):
-        repeat = max(1, round(15/float(steps)))
+        target_duration = 10.0  # secondi totali del video
+        fps = max(1, int(len(history) / target_duration))  # calcolo FPS dinamico
+
         try:
-            with imageio.get_writer(VIDEO_PATH, fps=1, format='FFMPEG') as w:
+            with imageio.get_writer(VIDEO_PATH, fps=fps, format='FFMPEG') as w:
                 for h in history:
                     frame = imageio.imread(h["image"])
-                    for _ in range(repeat):
-                        w.append_data(frame)
-            st.success("Video generated!")
+                    w.append_data(frame)
+            st.success(f"Video generated at {fps} FPS (~{target_duration:.0f}s)")
         except:
             st.error("Installare il backend FFMPEG: `pip install imageio[ffmpeg]`")
 
         # Mostra video e BEFORE / AFTER
-        col_vid, col_before, col_after = st.columns([5,3,3])
+        col_vid, col_before, col_after = st.columns([5, 3, 3])
         with col_vid:
             st.video(VIDEO_PATH, width=600)
         with col_before:
@@ -177,4 +224,3 @@ if finished and st.session_state.network:
             st.markdown("**AFTER**")
             last_img = st.session_state.all_steps[-1][2]
             st.image(last_img, use_container_width=True)
-

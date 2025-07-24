@@ -1,5 +1,9 @@
 ﻿from src.core.aodv_node import aodv_node as Node
-import random, json
+from src.core.aodv import RoutingTableEntry
+import random, copy
+from tabulate import tabulate
+from collections import deque
+
 import time
 
 class SensorNetwork:
@@ -8,11 +12,13 @@ class SensorNetwork:
     def __init__(self):
         """Initialize an empty sensor network."""
         self.nodes = []
+        self.queue = deque()
         
     def add_node(self, node):
         """Add a node to the network."""
         self.nodes.append(node)
         return node
+
         
     def create_random_network(self, n, seed=None, area_size=10, min_range=1.0, max_range=3.0):
         """Create a network with n nodes randomly positioned with random transmission ranges.
@@ -47,7 +53,8 @@ class SensorNetwork:
         # Generate weighted connections
         self._generate_connections()
         return self.nodes
-        
+
+
     def _generate_connections(self):
         """Generate bidirectional weighted connections between nodes that can reach each other."""
         n = len(self.nodes)
@@ -65,7 +72,8 @@ class SensorNetwork:
         
         # Ensure the network is fully connected (any node can reach any other)
         self._ensure_fully_connected_network()
-                    
+
+
     def _ensure_no_isolated_nodes(self):
         """Ensure that every node has at least one connection."""
         isolated_nodes = []
@@ -130,6 +138,7 @@ class SensorNetwork:
             print(f"There are still {len(still_isolated)} isolated nodes, attempting to connect them...")
             self._ensure_no_isolated_nodes()
 
+
     def _is_network_fully_connected(self):
         """Check if the network is fully connected (any node can reach any other node).
         
@@ -158,7 +167,8 @@ class SensorNetwork:
         
         # If all nodes are visited, the network is fully connected
         return len(visited) == n
-        
+
+
     def _ensure_fully_connected_network(self):
         """Ensure the network is fully connected by identifying disconnected components
         and adding links between them.
@@ -236,7 +246,8 @@ class SensorNetwork:
             print("Warning: Network is still not fully connected after attempting to connect components")
             # Try again with a more aggressive approach
             self._connect_all_components()
-            
+
+
     def _connect_all_components(self):
         """A more aggressive approach to connect all components by connecting each
         component to all other components.
@@ -310,7 +321,8 @@ class SensorNetwork:
             print("Warning: Network is still not fully connected after aggressive connection attempt")
         else:
             print("Network is now fully connected")
-                    
+
+
     def get_adjacency_matrix(self):
         """Return the adjacency matrix with delays as weights."""
         n = len(self.nodes)
@@ -323,7 +335,8 @@ class SensorNetwork:
                 matrix[i][other_node_id] = delay
                 
         return matrix
-    
+
+
     def get_node_by_id(self, node_id):
         """Return node with given ID."""
         for node in self.nodes:
@@ -331,6 +344,33 @@ class SensorNetwork:
                 return node
         return None
     
+
+    def get_link_cost(self, node_a_id, node_b_id):
+        """Get the cost (delay) of the link between two nodes."""
+        node_a = self.get_node_by_id(node_a_id)
+        node_b = self.get_node_by_id(node_b_id)
+        
+        if node_a is None or node_b is None:
+            return float('inf')
+        if node_b_id in node_a.connections:
+            return node_a.connections[node_b_id]
+        if node_a_id in node_b.connections:
+            return node_b.connections[node_a_id]
+        return float('inf')  # No link exists between these nodes
+        
+
+    def route_discovery(self, src_id, dst_id,verbose=False):
+
+
+        src_node = self.get_node_by_id(src_id)
+        src_node.broadcast_RREQ(self, dst_id)
+
+        while self.queue:
+            
+            current_node, current_rreq, forwarder_id = self.queue.popleft()
+            current_node.receive_RREQ(self, current_rreq, forwarder_id, verbose=verbose)
+
+
     def get_all_links(self):
         """Return a list of all links in the network as (node_a_id, node_b_id, delay) tuples."""
         links = []
@@ -339,7 +379,8 @@ class SensorNetwork:
                 if i < neighbor_id:
                     links.append((i, neighbor_id, delay))
         return links
-    
+
+
     def get_message_counter_totals(self):
         """Calculate total message counts across all nodes in the network.
         
@@ -378,19 +419,7 @@ class SensorNetwork:
                     if node_a.can_reach(node_b) or node_b.can_reach(node_a):
                         unconnected_pairs.append((i, j))
         return unconnected_pairs
-    
-    def init_routing(self, verbose=False):
-        """Initialize routing tables for all nodes in the network."""
-        if verbose:
-            print("Initializing routing tables for all nodes...")
-        
-        for node in self.nodes:
-            node.init_discovery(verbose=True)
 
-            # node.init_routing_table(self, verbose=verbose)
-        
-        if verbose:
-            print("Routing tables initialized successfully.")
 
     def neighbor_discovery(self, verbose=False):
         """
@@ -399,6 +428,7 @@ class SensorNetwork:
         """
         for node in self.nodes:
             node.discover_neighbors(self, verbose=verbose)
+
 
     def simulate_message_transmission(self, source_node, target_node, message="Test message", verbose=False):
         """Simulate sending a message from source to target using current routing tables.
@@ -412,21 +442,71 @@ class SensorNetwork:
         Returns:
             Tuple containing the path found and the total delay, or None if no path exists
         """
-
+        if source_node.can_send(target_node):
+            nHops, path, delay = source_node.send_MSG(target_node.node_id, message, self, verbose=verbose)
+            return path, nHops, delay
         if verbose:
-            print(f"\nSimulating message transmission from Node {source_node.node_id} to Node {target_node.node_id}")
-            print(f"Message: '{message}'")
-            
-        nHops, path = source_node.send_MSG(target_node.node_id, message, self, verbose=verbose)
-    
-        if verbose:
-            print(f"Path found: {' -> '.join(map(str, path))}")
-            print(f"Total transmission delay: {nHops} units")
-            
-        return path, nHops
-    
+            print(f"Node {source_node.node_id} cannot send message to Node {target_node.node_id}: No route found, initiating route discovery...")
+        
+        self.route_discovery(source_node.node_id, target_node.node_id, verbose=verbose)
+        
+        # After route discovery, try sending the message again
+        if source_node.can_send(target_node):
+            nHops, path, delay = source_node.send_MSG(target_node.node_id, message, self, verbose=verbose)
+            return path, nHops, delay
+        else:
+            if verbose:
+                print(f"Node {source_node.node_id} could not send message to Node {target_node.node_id}: No route found")
+            return None, None, None
 
-    
+
+    def print_stats_table(self, page_size=10):
+        """Print statistics for all nodes in the network in a paginated format."""
+        if not self.nodes:
+            print("No nodes in the network.")
+            return
+
+        
+        print("\n=== Network Statistics ===")
+        print(f"Total Nodes: {len(self.nodes)}")
+        
+        # Prepare table headers and rows
+        headers = ['Node ID', 'RREQ Sent', 'RREQ Recv', 'RREP Sent', 'RREP Recv', 'Data Sent', 'Data Recv']
+        all_rows = []
+
+        for node in self.nodes:
+            s = node.msg_stats
+            all_rows.append([
+                node.node_id,
+                s['rreq_sent'], s['rreq_recv'],
+                s['rrep_sent'], s['rrep_recv'],
+                s['data_sent'], s['data_recv']
+            ])
+
+        for i in range(0, len(all_rows), page_size):
+            print(f"\n=== Page {i // page_size + 1} ===")
+            print(tabulate(all_rows[i:i+page_size], headers=headers, tablefmt='grid'))
+
+
+    def print_stats_compact(self):
+        headers = ['Node ID', 'Route Discovery Sent', 'Route Discovery Recv', 'Data Sent', 'Data Recv']
+        rows = []
+
+        for node in self.nodes:
+            s = node.msg_stats
+            discovery_sent = s['rreq_sent'] + s['rrep_sent']
+            discovery_recv = s['rreq_recv'] + s['rrep_recv']
+            rows.append([
+                node.node_id,
+                discovery_sent,
+                discovery_recv,
+                s['data_sent'],
+                s['data_recv']
+            ])
+
+        print(tabulate(rows, headers=headers, tablefmt='grid'))
+
+
     def _find_shortest_path(self, source_id, target_id):
         """Find shortest path between nodes using Dijkstra's algorithm."""
         n = len(self.nodes)
@@ -462,52 +542,6 @@ class SensorNetwork:
         
         return None, float('inf')
     
-    def handle_topology_change(self, node_a_id, node_b_id, new_delay=None, verbose=False):
-        """Handle a topology change (link addition, removal, or delay change).
-        
-        Args:
-            node_a_id, node_b_id: IDs of the nodes affected by the change
-            new_delay: New delay value, or None to remove the connection
-            verbose: Print detailed information during update
-            
-        Returns:
-            Number of iterations to reconverge
-        """
-        node_a = self.get_node_by_id(node_a_id)
-        node_b = self.get_node_by_id(node_b_id)
-        
-        if node_a is None or node_b is None:
-            raise ValueError(f"Node with ID {node_a_id} or {node_b_id} not found")
-            
-        if verbose:
-            if new_delay is None:
-                print(f"\nRemoving connection between Node {node_a_id} and Node {node_b_id}")
-            else:
-                print(f"\nUpdating connection between Node {node_a_id} and Node {node_b_id} to delay {new_delay:.4f}")
-        
-        # Update the connection
-        if new_delay is None:
-            # Remove the connection
-            if node_b_id in node_a.connections:
-                del node_a.connections[node_b_id]
-                node_a.update_needed = True
-            if node_a_id in node_b.connections:
-                del node_b.connections[node_a_id]
-                node_b.update_needed = True
-            # self.invalidate_routes((node_a_id, node_b_id))
-            # After removal, check connectivity and create a bridge if needed
-            if not self._is_network_fully_connected():
-                if verbose:
-                    print("Network is disconnected after link removal. Creating bridge link to restore connectivity.")
-                self._ensure_fully_connected_network()
-        else:
-            # Add or update the connection
-            node_a.connections[node_b_id] = new_delay
-            node_b.connections[node_a_id] = new_delay
-            node_a.update_needed = True
-            node_b.update_needed = True
-        
-        return
     
     def add_link(self, node_a_id, node_b_id, delay, verbose=False):
         """Add a new link between two nodes with a specified delay.
@@ -528,7 +562,8 @@ class SensorNetwork:
         node_b.connections[node_a_id] = delay
         node_a.update_needed = True
         node_b.update_needed = True
-        
+
+
     def remove_link(self, node_a_id, node_b_id, verbose=False):
         """Remove a link between two nodes.
         
@@ -558,7 +593,6 @@ class SensorNetwork:
             self._ensure_fully_connected_network()
         
 
-
     def invalidate_routes(self, broken_link):
         node1_id, node2_id = broken_link
         for node in self.nodes:
@@ -569,6 +603,7 @@ class SensorNetwork:
             for dest_id in to_remove:
                 del node.routing_table[dest_id]
                 print(f"Node {node.node_id}: Removed route to {dest_id} due to broken link")
+
 
     def link_exists(self, node_a_id, node_b_id):
         """Check if a link exists between two nodes."""
