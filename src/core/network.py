@@ -460,32 +460,18 @@ class SensorNetwork:
             return None, None, None
 
 
-    def print_stats_table(self, page_size=10):
-        """Print statistics for all nodes in the network in a paginated format."""
-        if not self.nodes:
-            print("No nodes in the network.")
-            return
-
+    def print_efficiency(self):
+        """Print the efficiency of the network based on message exchanges."""
+        total_exchanged = sum(sum(tot for tot in node.msg_stats.values()) for node in self.nodes)
+        total_useful = sum(node.msg_stats.get("data_recv", 0) for node in self.nodes) + sum(node.msg_stats.get("data_sent", 0) for node in self.nodes)
+        efficiency = total_useful / total_exchanged if total_exchanged > 0 else 0
         
-        print("\n=== Network Statistics ===")
-        print(f"Total Nodes: {len(self.nodes)}")
-        
-        # Prepare table headers and rows
-        headers = ['Node ID', 'RREQ Sent', 'RREQ Recv', 'RREP Sent', 'RREP Recv', 'Data Sent', 'Data Recv']
-        all_rows = []
+        print("\n=== Network Efficiency ===")
+        print(f"Total packets exchanged: {total_exchanged}")
+        print(f"Useful packets (data received): {total_useful}")
+        print(f"Efficiency (useful / total): {efficiency:.3f}\n")
+        return efficiency
 
-        for node in self.nodes:
-            s = node.msg_stats
-            all_rows.append([
-                node.node_id,
-                s['rreq_sent'], s['rreq_recv'],
-                s['rrep_sent'], s['rrep_recv'],
-                s['data_sent'], s['data_recv']
-            ])
-
-        for i in range(0, len(all_rows), page_size):
-            print(f"\n=== Page {i // page_size + 1} ===")
-            print(tabulate(all_rows[i:i+page_size], headers=headers, tablefmt='grid'))
 
 
     def print_stats_compact(self):

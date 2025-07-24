@@ -142,51 +142,13 @@ class aodv_node(SensorNode):
 
                 # Use the network's queue to send the RREQ
                 network.queue.append((neighbor, forwarded_rreq, self.node_id))
-
-
-    def receive_MSsG(self, msg_packet, network, sender_id, verbose=False):
-        """Receive a message and either consume it or forward it."""
-        # print(f"Node {self.node_id}",msg_packet)
-        
-        msg_packet['path'].append(self.node_id)
-        msg_packet['hops'] += 1
-        msg_packet['cost'] += network.get_link_cost(self.node_id, sender_id)
-
-        if self.node_id == msg_packet['dst']:
-            self.msg_stats['data_recv'] += 1
-            self.received_msgs.append(copy.deepcopy(msg_packet))
-            if verbose:
-                print(f"Node {self.node_id}: Received message from {msg_packet['src']} via path {msg_packet['path']}")
-            return msg_packet['hops'], msg_packet['path'], msg_packet['cost']
-        
-        dst_id = msg_packet['dst']
-
-
-        try:    
-            next_hop = self.routing_table[dst_id].next_hop
-        except KeyError:
-            print(f"Node {self.node_id}: No route to destination {dst_id}, initiating route discovery.")
-            network.route_discovery(self.node_id, dst_id, verbose)
-        
-        next_hop = self.routing_table[dst_id].next_hop
-
-        # DEBUG 
-        if msg_packet['hops'] > 40:
-            print("Loop detected in message forwarding!")
-
-            print(f"node {self.node_id}: mgs_path {msg_packet['path']}")
-            for node in network.nodes:
-                node.print_routing_table()
-            exit(69)
-
-        return network.get_node_by_id(next_hop).receive_MSG(
-            msg_packet, network, self.node_id, verbose
-        )
     
     def receive_MSG(self, msg_packet, network, sender_id, verbose=False):
         """Receive a message and either consume it or forward it."""
         # Aggiungo il mio ID al path
         msg_packet['path'].append(self.node_id)
+        self.msg_stats['data_recv'] += 1
+        
 
         # ————————————————————————————— Loop detection —————————————————————————————
         dst_id = msg_packet['dst']
@@ -216,7 +178,6 @@ class aodv_node(SensorNode):
 
         # Se sono la destinazione, consegno localmente
         if self.node_id == dst_id:
-            self.msg_stats['data_recv'] += 1
             self.received_msgs.append(copy.deepcopy(msg_packet))
             if verbose:
                 print(f"Node {self.node_id}: Received message from {msg_packet['src']} via path {msg_packet['path']}")
