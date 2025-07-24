@@ -1,4 +1,6 @@
 test.sh
+rfc3561.txt
 out.log
+.venv
 file
 src/core/__pycache__
