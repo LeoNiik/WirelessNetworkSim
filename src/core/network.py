@@ -13,10 +13,17 @@ class SensorNetwork:
         """Initialize an empty sensor network."""
         self.nodes = []
         self.queue = deque()
+        self.stats = {
+            "links_removed": 0,
+            "links_added": 0,
+            "nodes_added": 0,
+            "nodes_removed": 0
+        }
         
     def add_node(self, node):
         """Add a node to the network."""
         self.nodes.append(node)
+        self.stats["nodes_added"] += 1
         return node
 
         
@@ -460,32 +467,20 @@ class SensorNetwork:
             return None, None, None
 
 
-    def print_stats_table(self, page_size=10):
-        """Print statistics for all nodes in the network in a paginated format."""
-        if not self.nodes:
-            print("No nodes in the network.")
-            return
-
+    def print_efficiency(self):
+        """Print the efficiency of the network based on message exchanges."""
+        total_exchanged = sum(sum(tot for tot in node.msg_stats.values()) for node in self.nodes)
+        total_useful = sum(node.msg_stats.get("data_sent", 0) for node in self.nodes)
+        # total_useful += #sum(node.msg_stats.get("data_recv", 0) for node in self.nodes) + 
+        efficiency = total_useful / total_exchanged if total_exchanged > 0 else 0
         
-        print("\n=== Network Statistics ===")
-        print(f"Total Nodes: {len(self.nodes)}")
-        
-        # Prepare table headers and rows
-        headers = ['Node ID', 'RREQ Sent', 'RREQ Recv', 'RREP Sent', 'RREP Recv', 'Data Sent', 'Data Recv']
-        all_rows = []
+        # print("\n=== Network Efficiency ===")
 
-        for node in self.nodes:
-            s = node.msg_stats
-            all_rows.append([
-                node.node_id,
-                s['rreq_sent'], s['rreq_recv'],
-                s['rrep_sent'], s['rrep_recv'],
-                s['data_sent'], s['data_recv']
-            ])
+        # print(f"Total packets exchanged: {total_exchanged}")
+        # print(f"Useful packets (data received): {total_useful}")
+        print(f"Efficiency: {efficiency:.3f} ({100*efficiency:.2f}%)\n")
+        return efficiency
 
-        for i in range(0, len(all_rows), page_size):
-            print(f"\n=== Page {i // page_size + 1} ===")
-            print(tabulate(all_rows[i:i+page_size], headers=headers, tablefmt='grid'))
 
 
     def print_stats_compact(self):
@@ -563,6 +558,8 @@ class SensorNetwork:
         node_a.update_needed = True
         node_b.update_needed = True
 
+        self.stats["links_added"] += 1
+
 
     def remove_link(self, node_a_id, node_b_id, verbose=False):
         """Remove a link between two nodes.
@@ -585,7 +582,9 @@ class SensorNetwork:
         if node_a_id in node_b.connections:
             del node_b.connections[node_a_id]
             node_b.update_needed = True
-            
+
+
+        self.stats["links_removed"] += 1
         # After removal, check connectivity and create a bridge if needed
         if not self._is_network_fully_connected():
             if verbose:

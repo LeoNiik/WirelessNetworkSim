@@ -1,8 +1,10 @@
 import streamlit as st
 import random, os, time
 import imageio
+
 from src.core.network import SensorNetwork
-from src.visualization.visualization import visualize_network
+# Usa esplicitamente l'implementazione Matplotlib per evitare ombre/import sbagliati
+from src.visualization.visualization import visualize_network_matplotlib as visualize_network
 
 # --- CONFIG PAGINA ---
 st.set_page_config(
@@ -73,9 +75,9 @@ def generate_all_steps(net, n_nodes, time_steps, p_req, p_fail, p_new):
         if not events:
             events = ["No events"]
 
-        # SALVA IMMAGINE
+        # SALVA IMMAGINE (usa posizionali per essere compatibile con firme diverse)
         img = os.path.join(OUTPUT_DIR, f"step_{t+1}.png")
-        visualize_network(net, filename=img, title=f"Step {t+1}")
+        visualize_network(net, img, f"Step {t+1}")
         lst.append((t+1, events, img))
     return lst
 
@@ -167,7 +169,7 @@ if finished and st.session_state.network:
         parts = [f"{nbr} (delay: {adj[nid][nbr]:.2f})" for nbr in sorted(adj[nid])]
         lines.append(f"[{nid}]: {', '.join(parts)}")
     st.code("\n".join(lines), language=None)
-    
+
     # --- STATISTICHE DELL'ESECUZIONE ---
     st.subheader("📊 Execution Statistics")
 
@@ -196,8 +198,6 @@ if finished and st.session_state.network:
     with st.expander("📦 Detailed Message Counts per Type"):
         st.json(total_stats)
 
-
-
     # Bottone per generare e mostrare il video
     if st.button("Generate Video"):
         target_duration = 10.0  # secondi totali del video
@@ -209,7 +209,7 @@ if finished and st.session_state.network:
                     frame = imageio.imread(h["image"])
                     w.append_data(frame)
             st.success(f"Video generated at {fps} FPS (~{target_duration:.0f}s)")
-        except:
+        except Exception:
             st.error("Installare il backend FFMPEG: `pip install imageio[ffmpeg]`")
 
         # Mostra video e BEFORE / AFTER
