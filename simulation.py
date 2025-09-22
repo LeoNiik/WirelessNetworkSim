@@ -84,8 +84,13 @@ def run_dynamic_scenario(network, n_nodes, time_steps=20, p_request=0.3, p_fail=
     total_exchanged_messages = sum( sum( tot for tot in node.msg_stats.values()) for node in network.nodes)
     print("Total exchanged messages:", total_exchanged_messages)
 
-    network.print_stats_compact()
+    # network.print_stats_compact()
+
+
+    # print("Simlation parameters:")
+    print(f"N nodes: {n_nodes}, Time steps: {time_steps}, p_request: {p_request}, p_fail: {p_fail}, p_new: {p_new}")
     network.print_efficiency()
+    print("Network statistics:", network.stats)
 
 
 
@@ -105,7 +110,7 @@ def main(args):
     network = SensorNetwork()
     network.create_random_network(n_nodes, seed=seed, area_size=10)
     visualize_network(network)
-
+    # exit(0)
     # network.neighbor_discovery(verbose=False)
 
     run_dynamic_scenario(

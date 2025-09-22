@@ -147,7 +147,6 @@ class aodv_node(SensorNode):
         """Receive a message and either consume it or forward it."""
         # Aggiungo il mio ID al path
         msg_packet['path'].append(self.node_id)
-        self.msg_stats['data_recv'] += 1
         
 
         # ————————————————————————————— Loop detection —————————————————————————————
@@ -178,6 +177,8 @@ class aodv_node(SensorNode):
 
         # Se sono la destinazione, consegno localmente
         if self.node_id == dst_id:
+            self.msg_stats['data_recv'] += 1
+
             self.received_msgs.append(copy.deepcopy(msg_packet))
             if verbose:
                 print(f"Node {self.node_id}: Received message from {msg_packet['src']} via path {msg_packet['path']}")
@@ -190,6 +191,8 @@ class aodv_node(SensorNode):
             network.route_discovery(self.node_id, dst_id, verbose)
 
         next_hop = self.routing_table[dst_id].next_hop
+        self.msg_stats['data_sent'] += 1
+
         return network.get_node_by_id(next_hop).receive_MSG(
             msg_packet, network, self.node_id, verbose
         )
