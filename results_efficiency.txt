@@ -1,1846 +1,2160 @@
-(10, 30, 0.1, 0.1, 0.15),Total exchanged messages: 101
+(10, 30, 0.1, 0.1, 0.15, 'efficiency'),Total exchanged messages: 101
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.079
+efficiency: 0.079 (7.92%)
 
 Network statistics: {'links_removed': 2; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.1, 0.35),Total exchanged messages: 184
+
+(10, 30, 0.1, 0.1, 0.35, 'efficiency'),Total exchanged messages: 184
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.120
+efficiency: 0.120 (11.96%)
 
 Network statistics: {'links_removed': 3; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.1, 0.65),Total exchanged messages: 287
+
+(10, 30, 0.1, 0.1, 0.65, 'efficiency'),Total exchanged messages: 287
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.160
+efficiency: 0.160 (16.03%)
 
 Network statistics: {'links_removed': 2; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.1, 0.85),Total exchanged messages: 276
+
+(10, 30, 0.1, 0.1, 0.85, 'efficiency'),Total exchanged messages: 276
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.264
+efficiency: 0.264 (26.45%)
 
 Network statistics: {'links_removed': 1; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.1, 1.0),Total exchanged messages: 323
+
+(10, 30, 0.1, 0.1, 1.0, 'efficiency'),Total exchanged messages: 323
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.257
+efficiency: 0.257 (25.70%)
 
 Network statistics: {'links_removed': 2; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.2, 0.15),Total exchanged messages: 133
+
+(10, 30, 0.1, 0.2, 0.15, 'efficiency'),Total exchanged messages: 133
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.090
+efficiency: 0.090 (9.02%)
 
 Network statistics: {'links_removed': 1; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.2, 0.35),Total exchanged messages: 200
+
+(10, 30, 0.1, 0.2, 0.35, 'efficiency'),Total exchanged messages: 200
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.100
+efficiency: 0.100 (10.00%)
 
 Network statistics: {'links_removed': 3; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.2, 0.65),Total exchanged messages: 263
+
+(10, 30, 0.1, 0.2, 0.65, 'efficiency'),Total exchanged messages: 263
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.156
+efficiency: 0.156 (15.59%)
 
 Network statistics: {'links_removed': 1; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.2, 0.85),Total exchanged messages: 313
+
+(10, 30, 0.1, 0.2, 0.85, 'efficiency'),Total exchanged messages: 313
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.214
+efficiency: 0.214 (21.41%)
 
 Network statistics: {'links_removed': 0; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.2, 1.0),Total exchanged messages: 365
+
+(10, 30, 0.1, 0.2, 1.0, 'efficiency'),Total exchanged messages: 365
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.216
+efficiency: 0.216 (21.64%)
 
 Network statistics: {'links_removed': 1; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.3, 0.15),Total exchanged messages: 153
+
+(10, 30, 0.1, 0.3, 0.15, 'efficiency'),Total exchanged messages: 153
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.065
+efficiency: 0.065 (6.54%)
 
 Network statistics: {'links_removed': 1; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.3, 0.35),Total exchanged messages: 232
+
+(10, 30, 0.1, 0.3, 0.35, 'efficiency'),Total exchanged messages: 232
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.099
+efficiency: 0.099 (9.91%)
 
 Network statistics: {'links_removed': 3; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.3, 0.65),Total exchanged messages: 283
+
+(10, 30, 0.1, 0.3, 0.65, 'efficiency'),Total exchanged messages: 283
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.145
+efficiency: 0.145 (14.49%)
 
 Network statistics: {'links_removed': 2; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.3, 0.85),Total exchanged messages: 313
+
+(10, 30, 0.1, 0.3, 0.85, 'efficiency'),Total exchanged messages: 313
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.214
+efficiency: 0.214 (21.41%)
 
 Network statistics: {'links_removed': 0; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.1, 0.3, 1.0),Total exchanged messages: 381
+
+(10, 30, 0.1, 0.3, 1.0, 'efficiency'),Total exchanged messages: 381
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.205
+efficiency: 0.205 (20.47%)
 
 Network statistics: {'links_removed': 2; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.1, 0.15),Total exchanged messages: 100
+
+(10, 30, 0.2, 0.1, 0.15, 'efficiency'),Total exchanged messages: 100
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.060
+efficiency: 0.060 (6.00%)
 
 Network statistics: {'links_removed': 5; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.1, 0.35),Total exchanged messages: 190
+
+(10, 30, 0.2, 0.1, 0.35, 'efficiency'),Total exchanged messages: 190
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.147
+efficiency: 0.147 (14.74%)
 
 Network statistics: {'links_removed': 7; 'links_added': 1; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.1, 0.65),Total exchanged messages: 271
+
+(10, 30, 0.2, 0.1, 0.65, 'efficiency'),Total exchanged messages: 271
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.221
+efficiency: 0.221 (22.14%)
 
 Network statistics: {'links_removed': 4; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.1, 0.85),Total exchanged messages: 313
+
+(10, 30, 0.2, 0.1, 0.85, 'efficiency'),Total exchanged messages: 313
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.265
+efficiency: 0.265 (26.52%)
 
 Network statistics: {'links_removed': 5; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.1, 1.0),Total exchanged messages: 329
+
+(10, 30, 0.2, 0.1, 1.0, 'efficiency'),Total exchanged messages: 329
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.246
+efficiency: 0.246 (24.62%)
 
 Network statistics: {'links_removed': 3; 'links_added': 1; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.2, 0.15),Total exchanged messages: 135
+
+(10, 30, 0.2, 0.2, 0.15, 'efficiency'),Total exchanged messages: 135
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.059
+efficiency: 0.059 (5.93%)
 
 Network statistics: {'links_removed': 7; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.2, 0.35),Total exchanged messages: 200
+
+(10, 30, 0.2, 0.2, 0.35, 'efficiency'),Total exchanged messages: 200
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.080
+efficiency: 0.080 (8.00%)
 
 Network statistics: {'links_removed': 7; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.2, 0.65),Total exchanged messages: 295
+
+(10, 30, 0.2, 0.2, 0.65, 'efficiency'),Total exchanged messages: 295
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.153
+efficiency: 0.153 (15.25%)
 
 Network statistics: {'links_removed': 4; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.2, 0.85),Total exchanged messages: 233
+
+(10, 30, 0.2, 0.2, 0.85, 'efficiency'),Total exchanged messages: 233
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.305
+efficiency: 0.305 (30.47%)
 
 Network statistics: {'links_removed': 1; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.2, 1.0),Total exchanged messages: 365
+
+(10, 30, 0.2, 0.2, 1.0, 'efficiency'),Total exchanged messages: 365
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.216
+efficiency: 0.216 (21.64%)
 
 Network statistics: {'links_removed': 1; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.3, 0.15),Total exchanged messages: 159
+
+(10, 30, 0.2, 0.3, 0.15, 'efficiency'),Total exchanged messages: 159
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.044
+efficiency: 0.044 (4.40%)
 
 Network statistics: {'links_removed': 7; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.3, 0.35),Total exchanged messages: 277
+
+(10, 30, 0.2, 0.3, 0.35, 'efficiency'),Total exchanged messages: 277
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.079
+efficiency: 0.079 (7.94%)
 
 Network statistics: {'links_removed': 10; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.3, 0.65),Total exchanged messages: 317
+
+(10, 30, 0.2, 0.3, 0.65, 'efficiency'),Total exchanged messages: 317
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.161
+efficiency: 0.161 (16.09%)
 
 Network statistics: {'links_removed': 3; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.3, 0.85),Total exchanged messages: 233
+
+(10, 30, 0.2, 0.3, 0.85, 'efficiency'),Total exchanged messages: 233
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.305
+efficiency: 0.305 (30.47%)
 
 Network statistics: {'links_removed': 1; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.2, 0.3, 1.0),Total exchanged messages: 381
+
+(10, 30, 0.2, 0.3, 1.0, 'efficiency'),Total exchanged messages: 381
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.205
+efficiency: 0.205 (20.47%)
 
 Network statistics: {'links_removed': 2; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.1, 0.15),Total exchanged messages: 76
+
+(10, 30, 0.3, 0.1, 0.15, 'efficiency'),Total exchanged messages: 76
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.145
+efficiency: 0.145 (14.47%)
 
 Network statistics: {'links_removed': 13; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.1, 0.35),Total exchanged messages: 156
+
+(10, 30, 0.3, 0.1, 0.35, 'efficiency'),Total exchanged messages: 156
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.154
+efficiency: 0.154 (15.38%)
 
 Network statistics: {'links_removed': 9; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.1, 0.65),Total exchanged messages: 300
+
+(10, 30, 0.3, 0.1, 0.65, 'efficiency'),Total exchanged messages: 300
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.180
+efficiency: 0.180 (18.00%)
 
 Network statistics: {'links_removed': 13; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.1, 0.85),Total exchanged messages: 416
+
+(10, 30, 0.3, 0.1, 0.85, 'efficiency'),Total exchanged messages: 416
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.212
+efficiency: 0.212 (21.15%)
 
 Network statistics: {'links_removed': 8; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.1, 1.0),Total exchanged messages: 424
+
+(10, 30, 0.3, 0.1, 1.0, 'efficiency'),Total exchanged messages: 424
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.212
+efficiency: 0.212 (21.23%)
 
 Network statistics: {'links_removed': 8; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.2, 0.15),Total exchanged messages: 131
+
+(10, 30, 0.3, 0.2, 0.15, 'efficiency'),Total exchanged messages: 131
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.061
+efficiency: 0.061 (6.11%)
 
 Network statistics: {'links_removed': 10; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.2, 0.35),Total exchanged messages: 263
+
+(10, 30, 0.3, 0.2, 0.35, 'efficiency'),Total exchanged messages: 263
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.087
+efficiency: 0.087 (8.75%)
 
 Network statistics: {'links_removed': 8; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.2, 0.65),Total exchanged messages: 255
+
+(10, 30, 0.3, 0.2, 0.65, 'efficiency'),Total exchanged messages: 255
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.176
+efficiency: 0.176 (17.65%)
 
 Network statistics: {'links_removed': 8; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.2, 0.85),Total exchanged messages: 405
+
+(10, 30, 0.3, 0.2, 0.85, 'efficiency'),Total exchanged messages: 405
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.175
+efficiency: 0.175 (17.53%)
 
 Network statistics: {'links_removed': 10; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.2, 1.0),Total exchanged messages: 369
+
+(10, 30, 0.3, 0.2, 1.0, 'efficiency'),Total exchanged messages: 369
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.184
+efficiency: 0.184 (18.43%)
 
 Network statistics: {'links_removed': 7; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.3, 0.15),Total exchanged messages: 157
+
+(10, 30, 0.3, 0.3, 0.15, 'efficiency'),Total exchanged messages: 157
 N nodes: 10; Time steps: 30; p_request: 0.15; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.051
+efficiency: 0.051 (5.10%)
 
 Network statistics: {'links_removed': 11; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.3, 0.35),Total exchanged messages: 281
+
+(10, 30, 0.3, 0.3, 0.35, 'efficiency'),Total exchanged messages: 281
 N nodes: 10; Time steps: 30; p_request: 0.35; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.071
+efficiency: 0.071 (7.12%)
 
 Network statistics: {'links_removed': 11; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.3, 0.65),Total exchanged messages: 228
+
+(10, 30, 0.3, 0.3, 0.65, 'efficiency'),Total exchanged messages: 228
 N nodes: 10; Time steps: 30; p_request: 0.65; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.184
+efficiency: 0.184 (18.42%)
 
 Network statistics: {'links_removed': 8; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.3, 0.85),Total exchanged messages: 324
+
+(10, 30, 0.3, 0.3, 0.85, 'efficiency'),Total exchanged messages: 324
 N nodes: 10; Time steps: 30; p_request: 0.85; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.198
+efficiency: 0.198 (19.75%)
 
 Network statistics: {'links_removed': 9; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 30, 0.3, 0.3, 1.0),Total exchanged messages: 337
+
+(10, 30, 0.3, 0.3, 1.0, 'efficiency'),Total exchanged messages: 337
 N nodes: 10; Time steps: 30; p_request: 1.0; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.202
+efficiency: 0.202 (20.18%)
 
 Network statistics: {'links_removed': 8; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.1, 0.15),Total exchanged messages: 209
+
+(10, 60, 0.1, 0.1, 0.15, 'efficiency'),Total exchanged messages: 209
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.067
+efficiency: 0.067 (6.70%)
 
 Network statistics: {'links_removed': 4; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.1, 0.35),Total exchanged messages: 335
+
+(10, 60, 0.1, 0.1, 0.35, 'efficiency'),Total exchanged messages: 335
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.152
+efficiency: 0.152 (15.22%)
 
 Network statistics: {'links_removed': 6; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.1, 0.65),Total exchanged messages: 652
+
+(10, 60, 0.1, 0.1, 0.65, 'efficiency'),Total exchanged messages: 652
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.146
+efficiency: 0.146 (14.57%)
 
 Network statistics: {'links_removed': 7; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.1, 0.85),Total exchanged messages: 641
+
+(10, 60, 0.1, 0.1, 0.85, 'efficiency'),Total exchanged messages: 641
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.222
+efficiency: 0.222 (22.15%)
 
 Network statistics: {'links_removed': 8; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.1, 1.0),Total exchanged messages: 579
+
+(10, 60, 0.1, 0.1, 1.0, 'efficiency'),Total exchanged messages: 579
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.280
+efficiency: 0.280 (27.98%)
 
 Network statistics: {'links_removed': 5; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.2, 0.15),Total exchanged messages: 163
+
+(10, 60, 0.1, 0.2, 0.15, 'efficiency'),Total exchanged messages: 163
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.110
+efficiency: 0.110 (11.04%)
 
 Network statistics: {'links_removed': 6; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.2, 0.35),Total exchanged messages: 338
+
+(10, 60, 0.1, 0.2, 0.35, 'efficiency'),Total exchanged messages: 338
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.127
+efficiency: 0.127 (12.72%)
 
 Network statistics: {'links_removed': 7; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.2, 0.65),Total exchanged messages: 511
+
+(10, 60, 0.1, 0.2, 0.65, 'efficiency'),Total exchanged messages: 511
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.147
+efficiency: 0.147 (14.68%)
 
 Network statistics: {'links_removed': 5; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.2, 0.85),Total exchanged messages: 697
+
+(10, 60, 0.1, 0.2, 0.85, 'efficiency'),Total exchanged messages: 697
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.168
+efficiency: 0.168 (16.79%)
 
 Network statistics: {'links_removed': 4; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.2, 1.0),Total exchanged messages: 635
+
+(10, 60, 0.1, 0.2, 1.0, 'efficiency'),Total exchanged messages: 635
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.222
+efficiency: 0.222 (22.20%)
 
 Network statistics: {'links_removed': 4; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.3, 0.15),Total exchanged messages: 201
+
+(10, 60, 0.1, 0.3, 0.15, 'efficiency'),Total exchanged messages: 201
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.114
+efficiency: 0.114 (11.44%)
 
 Network statistics: {'links_removed': 4; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.3, 0.35),Total exchanged messages: 343
+
+(10, 60, 0.1, 0.3, 0.35, 'efficiency'),Total exchanged messages: 343
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.152
+efficiency: 0.152 (15.16%)
 
 Network statistics: {'links_removed': 5; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.3, 0.65),Total exchanged messages: 400
+
+(10, 60, 0.1, 0.3, 0.65, 'efficiency'),Total exchanged messages: 400
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.188
+efficiency: 0.188 (18.75%)
 
 Network statistics: {'links_removed': 9; 'links_added': 16; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.3, 0.85),Total exchanged messages: 700
+
+(10, 60, 0.1, 0.3, 0.85, 'efficiency'),Total exchanged messages: 700
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.159
+efficiency: 0.159 (15.86%)
 
 Network statistics: {'links_removed': 6; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.1, 0.3, 1.0),Total exchanged messages: 533
+
+(10, 60, 0.1, 0.3, 1.0, 'efficiency'),Total exchanged messages: 533
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.257
+efficiency: 0.257 (25.70%)
 
 Network statistics: {'links_removed': 4; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.1, 0.15),Total exchanged messages: 152
+
+(10, 60, 0.2, 0.1, 0.15, 'efficiency'),Total exchanged messages: 152
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.059
+efficiency: 0.059 (5.92%)
 
 Network statistics: {'links_removed': 9; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.1, 0.35),Total exchanged messages: 372
+
+(10, 60, 0.2, 0.1, 0.35, 'efficiency'),Total exchanged messages: 372
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.167
+efficiency: 0.167 (16.67%)
 
 Network statistics: {'links_removed': 19; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.1, 0.65),Total exchanged messages: 527
+
+(10, 60, 0.2, 0.1, 0.65, 'efficiency'),Total exchanged messages: 527
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.216
+efficiency: 0.216 (21.63%)
 
 Network statistics: {'links_removed': 10; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.1, 0.85),Total exchanged messages: 689
+
+(10, 60, 0.2, 0.1, 0.85, 'efficiency'),Total exchanged messages: 689
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.218
+efficiency: 0.218 (21.77%)
 
 Network statistics: {'links_removed': 10; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.1, 1.0),Total exchanged messages: 697
+
+(10, 60, 0.2, 0.1, 1.0, 'efficiency'),Total exchanged messages: 697
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.234
+efficiency: 0.234 (23.39%)
 
 Network statistics: {'links_removed': 10; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.2, 0.15),Total exchanged messages: 203
+
+(10, 60, 0.2, 0.2, 0.15, 'efficiency'),Total exchanged messages: 203
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.054
+efficiency: 0.054 (5.42%)
 
 Network statistics: {'links_removed': 14; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.2, 0.35),Total exchanged messages: 487
+
+(10, 60, 0.2, 0.2, 0.35, 'efficiency'),Total exchanged messages: 487
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.103
+efficiency: 0.103 (10.27%)
 
 Network statistics: {'links_removed': 14; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.2, 0.65),Total exchanged messages: 446
+
+(10, 60, 0.2, 0.2, 0.65, 'efficiency'),Total exchanged messages: 446
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.202
+efficiency: 0.202 (20.18%)
 
 Network statistics: {'links_removed': 12; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.2, 0.85),Total exchanged messages: 578
+
+(10, 60, 0.2, 0.2, 0.85, 'efficiency'),Total exchanged messages: 578
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.218
+efficiency: 0.218 (21.80%)
 
 Network statistics: {'links_removed': 7; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.2, 1.0),Total exchanged messages: 677
+
+(10, 60, 0.2, 0.2, 1.0, 'efficiency'),Total exchanged messages: 677
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.214
+efficiency: 0.214 (21.42%)
 
 Network statistics: {'links_removed': 7; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.3, 0.15),Total exchanged messages: 323
+
+(10, 60, 0.2, 0.3, 0.15, 'efficiency'),Total exchanged messages: 323
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.084
+efficiency: 0.084 (8.36%)
 
 Network statistics: {'links_removed': 14; 'links_added': 17; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.3, 0.35),Total exchanged messages: 467
+
+(10, 60, 0.2, 0.3, 0.35, 'efficiency'),Total exchanged messages: 467
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.124
+efficiency: 0.124 (12.42%)
 
 Network statistics: {'links_removed': 21; 'links_added': 18; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.3, 0.65),Total exchanged messages: 566
+
+(10, 60, 0.2, 0.3, 0.65, 'efficiency'),Total exchanged messages: 566
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.157
+efficiency: 0.157 (15.72%)
 
 Network statistics: {'links_removed': 12; 'links_added': 18; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.3, 0.85),Total exchanged messages: 622
+
+(10, 60, 0.2, 0.3, 0.85, 'efficiency'),Total exchanged messages: 622
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.180
+efficiency: 0.180 (18.01%)
 
 Network statistics: {'links_removed': 7; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.2, 0.3, 1.0),Total exchanged messages: 665
+
+(10, 60, 0.2, 0.3, 1.0, 'efficiency'),Total exchanged messages: 665
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.206
+efficiency: 0.206 (20.60%)
 
 Network statistics: {'links_removed': 9; 'links_added': 16; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.1, 0.15),Total exchanged messages: 166
+
+(10, 60, 0.3, 0.1, 0.15, 'efficiency'),Total exchanged messages: 166
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.145
+efficiency: 0.145 (14.46%)
 
 Network statistics: {'links_removed': 20; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.1, 0.35),Total exchanged messages: 252
+
+(10, 60, 0.3, 0.1, 0.35, 'efficiency'),Total exchanged messages: 252
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.210
+efficiency: 0.210 (21.03%)
 
 Network statistics: {'links_removed': 18; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.1, 0.65),Total exchanged messages: 467
+
+(10, 60, 0.3, 0.1, 0.65, 'efficiency'),Total exchanged messages: 467
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.251
+efficiency: 0.251 (25.05%)
 
 Network statistics: {'links_removed': 22; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.1, 0.85),Total exchanged messages: 763
+
+(10, 60, 0.3, 0.1, 0.85, 'efficiency'),Total exchanged messages: 763
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.204
+efficiency: 0.204 (20.45%)
 
 Network statistics: {'links_removed': 20; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.1, 1.0),Total exchanged messages: 804
+
+(10, 60, 0.3, 0.1, 1.0, 'efficiency'),Total exchanged messages: 804
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.211
+efficiency: 0.211 (21.14%)
 
 Network statistics: {'links_removed': 18; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.2, 0.15),Total exchanged messages: 189
+
+(10, 60, 0.3, 0.2, 0.15, 'efficiency'),Total exchanged messages: 189
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.101
+efficiency: 0.101 (10.05%)
 
 Network statistics: {'links_removed': 17; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.2, 0.35),Total exchanged messages: 447
+
+(10, 60, 0.3, 0.2, 0.35, 'efficiency'),Total exchanged messages: 447
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.107
+efficiency: 0.107 (10.74%)
 
 Network statistics: {'links_removed': 19; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.2, 0.65),Total exchanged messages: 481
+
+(10, 60, 0.3, 0.2, 0.65, 'efficiency'),Total exchanged messages: 481
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.173
+efficiency: 0.173 (17.26%)
 
 Network statistics: {'links_removed': 17; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.2, 0.85),Total exchanged messages: 872
+
+(10, 60, 0.3, 0.2, 0.85, 'efficiency'),Total exchanged messages: 872
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.156
+efficiency: 0.156 (15.60%)
 
 Network statistics: {'links_removed': 20; 'links_added': 16; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.2, 1.0),Total exchanged messages: 745
+
+(10, 60, 0.3, 0.2, 1.0, 'efficiency'),Total exchanged messages: 745
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.193
+efficiency: 0.193 (19.33%)
 
 Network statistics: {'links_removed': 21; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.3, 0.15),Total exchanged messages: 190
+
+(10, 60, 0.3, 0.3, 0.15, 'efficiency'),Total exchanged messages: 190
 N nodes: 10; Time steps: 60; p_request: 0.15; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.074
+efficiency: 0.074 (7.37%)
 
 Network statistics: {'links_removed': 24; 'links_added': 19; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.3, 0.35),Total exchanged messages: 429
+
+(10, 60, 0.3, 0.3, 0.35, 'efficiency'),Total exchanged messages: 429
 N nodes: 10; Time steps: 60; p_request: 0.35; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.119
+efficiency: 0.119 (11.89%)
 
 Network statistics: {'links_removed': 25; 'links_added': 16; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.3, 0.65),Total exchanged messages: 537
+
+(10, 60, 0.3, 0.3, 0.65, 'efficiency'),Total exchanged messages: 537
 N nodes: 10; Time steps: 60; p_request: 0.65; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.160
+efficiency: 0.160 (16.01%)
 
 Network statistics: {'links_removed': 18; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.3, 0.85),Total exchanged messages: 631
+
+(10, 60, 0.3, 0.3, 0.85, 'efficiency'),Total exchanged messages: 631
 N nodes: 10; Time steps: 60; p_request: 0.85; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.176
+efficiency: 0.176 (17.59%)
 
 Network statistics: {'links_removed': 18; 'links_added': 22; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 60, 0.3, 0.3, 1.0),Total exchanged messages: 717
+
+(10, 60, 0.3, 0.3, 1.0, 'efficiency'),Total exchanged messages: 717
 N nodes: 10; Time steps: 60; p_request: 1.0; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.202
+efficiency: 0.202 (20.22%)
 
 Network statistics: {'links_removed': 17; 'links_added': 23; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.1, 0.15),Total exchanged messages: 293
+
+(10, 100, 0.1, 0.1, 0.15, 'efficiency'),Total exchanged messages: 293
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.106
+efficiency: 0.106 (10.58%)
 
 Network statistics: {'links_removed': 12; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.1, 0.35),Total exchanged messages: 520
+
+(10, 100, 0.1, 0.1, 0.35, 'efficiency'),Total exchanged messages: 520
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.150
+efficiency: 0.150 (15.00%)
 
 Network statistics: {'links_removed': 11; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.1, 0.65),Total exchanged messages: 789
+
+(10, 100, 0.1, 0.1, 0.65, 'efficiency'),Total exchanged messages: 789
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.185
+efficiency: 0.185 (18.50%)
 
 Network statistics: {'links_removed': 11; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.1, 0.85),Total exchanged messages: 972
+
+(10, 100, 0.1, 0.1, 0.85, 'efficiency'),Total exchanged messages: 972
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.224
+efficiency: 0.224 (22.43%)
 
 Network statistics: {'links_removed': 10; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.1, 1.0),Total exchanged messages: 991
+
+(10, 100, 0.1, 0.1, 1.0, 'efficiency'),Total exchanged messages: 991
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.272
+efficiency: 0.272 (27.25%)
 
 Network statistics: {'links_removed': 10; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.2, 0.15),Total exchanged messages: 353
+
+(10, 100, 0.1, 0.2, 0.15, 'efficiency'),Total exchanged messages: 353
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.093
+efficiency: 0.093 (9.35%)
 
 Network statistics: {'links_removed': 12; 'links_added': 17; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.2, 0.35),Total exchanged messages: 440
+
+(10, 100, 0.1, 0.2, 0.35, 'efficiency'),Total exchanged messages: 440
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.143
+efficiency: 0.143 (14.32%)
 
 Network statistics: {'links_removed': 10; 'links_added': 19; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.2, 0.65),Total exchanged messages: 793
+
+(10, 100, 0.1, 0.2, 0.65, 'efficiency'),Total exchanged messages: 793
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.164
+efficiency: 0.164 (16.39%)
 
 Network statistics: {'links_removed': 10; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.2, 0.85),Total exchanged messages: 884
+
+(10, 100, 0.1, 0.2, 0.85, 'efficiency'),Total exchanged messages: 884
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.215
+efficiency: 0.215 (21.49%)
 
 Network statistics: {'links_removed': 7; 'links_added': 16; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.2, 1.0),Total exchanged messages: 842
+
+(10, 100, 0.1, 0.2, 1.0, 'efficiency'),Total exchanged messages: 842
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.255
+efficiency: 0.255 (25.53%)
 
 Network statistics: {'links_removed': 5; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.3, 0.15),Total exchanged messages: 216
+
+(10, 100, 0.1, 0.3, 0.15, 'efficiency'),Total exchanged messages: 216
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.153
+efficiency: 0.153 (15.28%)
 
 Network statistics: {'links_removed': 9; 'links_added': 18; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.3, 0.35),Total exchanged messages: 423
+
+(10, 100, 0.1, 0.3, 0.35, 'efficiency'),Total exchanged messages: 423
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.180
+efficiency: 0.180 (17.97%)
 
 Network statistics: {'links_removed': 10; 'links_added': 19; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.3, 0.65),Total exchanged messages: 588
+
+(10, 100, 0.1, 0.3, 0.65, 'efficiency'),Total exchanged messages: 588
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.236
+efficiency: 0.236 (23.64%)
 
 Network statistics: {'links_removed': 12; 'links_added': 20; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.3, 0.85),Total exchanged messages: 916
+
+(10, 100, 0.1, 0.3, 0.85, 'efficiency'),Total exchanged messages: 916
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.186
+efficiency: 0.186 (18.56%)
 
 Network statistics: {'links_removed': 9; 'links_added': 18; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.1, 0.3, 1.0),Total exchanged messages: 948
+
+(10, 100, 0.1, 0.3, 1.0, 'efficiency'),Total exchanged messages: 948
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.245
+efficiency: 0.245 (24.47%)
 
 Network statistics: {'links_removed': 7; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.1, 0.15),Total exchanged messages: 258
+
+(10, 100, 0.2, 0.1, 0.15, 'efficiency'),Total exchanged messages: 258
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.097
+efficiency: 0.097 (9.69%)
 
 Network statistics: {'links_removed': 19; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.1, 0.35),Total exchanged messages: 480
+
+(10, 100, 0.2, 0.1, 0.35, 'efficiency'),Total exchanged messages: 480
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.204
+efficiency: 0.204 (20.42%)
 
 Network statistics: {'links_removed': 26; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.1, 0.65),Total exchanged messages: 858
+
+(10, 100, 0.2, 0.1, 0.65, 'efficiency'),Total exchanged messages: 858
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.207
+efficiency: 0.207 (20.75%)
 
 Network statistics: {'links_removed': 16; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.1, 0.85),Total exchanged messages: 984
+
+(10, 100, 0.2, 0.1, 0.85, 'efficiency'),Total exchanged messages: 984
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.226
+efficiency: 0.226 (22.56%)
 
 Network statistics: {'links_removed': 18; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.1, 1.0),Total exchanged messages: 1188
+
+(10, 100, 0.2, 0.1, 1.0, 'efficiency'),Total exchanged messages: 1188
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.227
+efficiency: 0.227 (22.73%)
 
 Network statistics: {'links_removed': 19; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.2, 0.15),Total exchanged messages: 319
+
+(10, 100, 0.2, 0.2, 0.15, 'efficiency'),Total exchanged messages: 319
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.085
+efficiency: 0.085 (8.46%)
 
 Network statistics: {'links_removed': 24; 'links_added': 17; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.2, 0.35),Total exchanged messages: 584
+
+(10, 100, 0.2, 0.2, 0.35, 'efficiency'),Total exchanged messages: 584
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.134
+efficiency: 0.134 (13.36%)
 
 Network statistics: {'links_removed': 21; 'links_added': 20; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.2, 0.65),Total exchanged messages: 801
+
+(10, 100, 0.2, 0.2, 0.65, 'efficiency'),Total exchanged messages: 801
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.166
+efficiency: 0.166 (16.60%)
 
 Network statistics: {'links_removed': 16; 'links_added': 19; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.2, 0.85),Total exchanged messages: 757
+
+(10, 100, 0.2, 0.2, 0.85, 'efficiency'),Total exchanged messages: 757
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.256
+efficiency: 0.256 (25.63%)
 
 Network statistics: {'links_removed': 13; 'links_added': 21; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.2, 1.0),Total exchanged messages: 908
+
+(10, 100, 0.2, 0.2, 1.0, 'efficiency'),Total exchanged messages: 908
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.250
+efficiency: 0.250 (25.00%)
 
 Network statistics: {'links_removed': 13; 'links_added': 18; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.3, 0.15),Total exchanged messages: 330
+
+(10, 100, 0.2, 0.3, 0.15, 'efficiency'),Total exchanged messages: 330
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.091
+efficiency: 0.091 (9.09%)
 
 Network statistics: {'links_removed': 22; 'links_added': 27; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.3, 0.35),Total exchanged messages: 546
+
+(10, 100, 0.2, 0.3, 0.35, 'efficiency'),Total exchanged messages: 546
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.143
+efficiency: 0.143 (14.29%)
 
 Network statistics: {'links_removed': 27; 'links_added': 30; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.3, 0.65),Total exchanged messages: 826
+
+(10, 100, 0.2, 0.3, 0.65, 'efficiency'),Total exchanged messages: 826
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.172
+efficiency: 0.172 (17.19%)
 
 Network statistics: {'links_removed': 17; 'links_added': 24; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.3, 0.85),Total exchanged messages: 815
+
+(10, 100, 0.2, 0.3, 0.85, 'efficiency'),Total exchanged messages: 815
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.205
+efficiency: 0.205 (20.49%)
 
 Network statistics: {'links_removed': 13; 'links_added': 20; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.2, 0.3, 1.0),Total exchanged messages: 1026
+
+(10, 100, 0.2, 0.3, 1.0, 'efficiency'),Total exchanged messages: 1026
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.210
+efficiency: 0.210 (20.96%)
 
 Network statistics: {'links_removed': 16; 'links_added': 23; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.1, 0.15),Total exchanged messages: 251
+
+(10, 100, 0.3, 0.1, 0.15, 'efficiency'),Total exchanged messages: 251
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.179
+efficiency: 0.179 (17.93%)
 
 Network statistics: {'links_removed': 33; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.1, 0.35),Total exchanged messages: 529
+
+(10, 100, 0.3, 0.1, 0.35, 'efficiency'),Total exchanged messages: 529
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.183
+efficiency: 0.183 (18.34%)
 
 Network statistics: {'links_removed': 28; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.1, 0.65),Total exchanged messages: 836
+
+(10, 100, 0.3, 0.1, 0.65, 'efficiency'),Total exchanged messages: 836
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.244
+efficiency: 0.244 (24.40%)
 
 Network statistics: {'links_removed': 32; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.1, 0.85),Total exchanged messages: 1082
+
+(10, 100, 0.3, 0.1, 0.85, 'efficiency'),Total exchanged messages: 1082
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.223
+efficiency: 0.223 (22.27%)
 
 Network statistics: {'links_removed': 29; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.1, 1.0),Total exchanged messages: 1187
+
+(10, 100, 0.3, 0.1, 1.0, 'efficiency'),Total exchanged messages: 1187
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.239
+efficiency: 0.239 (23.93%)
 
 Network statistics: {'links_removed': 31; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.2, 0.15),Total exchanged messages: 258
+
+(10, 100, 0.3, 0.2, 0.15, 'efficiency'),Total exchanged messages: 258
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.105
+efficiency: 0.105 (10.47%)
 
 Network statistics: {'links_removed': 30; 'links_added': 16; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.2, 0.35),Total exchanged messages: 617
+
+(10, 100, 0.3, 0.2, 0.35, 'efficiency'),Total exchanged messages: 617
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.125
+efficiency: 0.125 (12.48%)
 
 Network statistics: {'links_removed': 28; 'links_added': 22; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.2, 0.65),Total exchanged messages: 834
+
+(10, 100, 0.3, 0.2, 0.65, 'efficiency'),Total exchanged messages: 834
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.171
+efficiency: 0.171 (17.15%)
 
 Network statistics: {'links_removed': 27; 'links_added': 21; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.2, 0.85),Total exchanged messages: 1161
+
+(10, 100, 0.3, 0.2, 0.85, 'efficiency'),Total exchanged messages: 1161
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.171
+efficiency: 0.171 (17.14%)
 
 Network statistics: {'links_removed': 28; 'links_added': 22; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.2, 1.0),Total exchanged messages: 1078
+
+(10, 100, 0.3, 0.2, 1.0, 'efficiency'),Total exchanged messages: 1078
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.232
+efficiency: 0.232 (23.19%)
 
 Network statistics: {'links_removed': 32; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.3, 0.15),Total exchanged messages: 334
+
+(10, 100, 0.3, 0.3, 0.15, 'efficiency'),Total exchanged messages: 334
 N nodes: 10; Time steps: 100; p_request: 0.15; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.084
+efficiency: 0.084 (8.38%)
 
 Network statistics: {'links_removed': 35; 'links_added': 29; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.3, 0.35),Total exchanged messages: 550
+
+(10, 100, 0.3, 0.3, 0.35, 'efficiency'),Total exchanged messages: 550
 N nodes: 10; Time steps: 100; p_request: 0.35; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.145
+efficiency: 0.145 (14.55%)
 
 Network statistics: {'links_removed': 34; 'links_added': 29; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.3, 0.65),Total exchanged messages: 838
+
+(10, 100, 0.3, 0.3, 0.65, 'efficiency'),Total exchanged messages: 838
 N nodes: 10; Time steps: 100; p_request: 0.65; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.174
+efficiency: 0.174 (17.42%)
 
 Network statistics: {'links_removed': 30; 'links_added': 24; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.3, 0.85),Total exchanged messages: 978
+
+(10, 100, 0.3, 0.3, 0.85, 'efficiency'),Total exchanged messages: 978
 N nodes: 10; Time steps: 100; p_request: 0.85; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.171
+efficiency: 0.171 (17.08%)
 
 Network statistics: {'links_removed': 29; 'links_added': 33; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 100, 0.3, 0.3, 1.0),Total exchanged messages: 988
+
+(10, 100, 0.3, 0.3, 1.0, 'efficiency'),Total exchanged messages: 988
 N nodes: 10; Time steps: 100; p_request: 1.0; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.240
+efficiency: 0.240 (23.99%)
 
 Network statistics: {'links_removed': 27; 'links_added': 34; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.1, 0.15),Total exchanged messages: 2305
+
+(10, 1000, 0.1, 0.1, 0.15, 'efficiency'),Total exchanged messages: 2305
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.142
+efficiency: 0.142 (14.23%)
 
 Network statistics: {'links_removed': 114; 'links_added': 94; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.1, 0.35),Total exchanged messages: 3329
+
+(10, 1000, 0.1, 0.1, 0.35, 'efficiency'),Total exchanged messages: 3329
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.214
+efficiency: 0.214 (21.39%)
 
 Network statistics: {'links_removed': 89; 'links_added': 89; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.1, 0.65),Total exchanged messages: 5456
+
+(10, 1000, 0.1, 0.1, 0.65, 'efficiency'),Total exchanged messages: 5456
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.255
+efficiency: 0.255 (25.51%)
 
 Network statistics: {'links_removed': 103; 'links_added': 99; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.1, 0.85),Total exchanged messages: 7032
+
+(10, 1000, 0.1, 0.1, 0.85, 'efficiency'),Total exchanged messages: 7032
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.267
+efficiency: 0.267 (26.71%)
 
 Network statistics: {'links_removed': 95; 'links_added': 84; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.1, 1.0),Total exchanged messages: 8102
+
+(10, 1000, 0.1, 0.1, 1.0, 'efficiency'),Total exchanged messages: 8102
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.274
+efficiency: 0.274 (27.41%)
 
 Network statistics: {'links_removed': 102; 'links_added': 88; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.2, 0.15),Total exchanged messages: 1293
+
+(10, 1000, 0.1, 0.2, 0.15, 'efficiency'),Total exchanged messages: 1293
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.192
+efficiency: 0.192 (19.18%)
 
 Network statistics: {'links_removed': 106; 'links_added': 113; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.2, 0.35),Total exchanged messages: 2348
+
+(10, 1000, 0.1, 0.2, 0.35, 'efficiency'),Total exchanged messages: 2348
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.277
+efficiency: 0.277 (27.68%)
 
 Network statistics: {'links_removed': 88; 'links_added': 97; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.2, 0.65),Total exchanged messages: 4546
+
+(10, 1000, 0.1, 0.2, 0.65, 'efficiency'),Total exchanged messages: 4546
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.270
+efficiency: 0.270 (27.01%)
 
 Network statistics: {'links_removed': 100; 'links_added': 105; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.2, 0.85),Total exchanged messages: 5190
+
+(10, 1000, 0.1, 0.2, 0.85, 'efficiency'),Total exchanged messages: 5190
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.310
+efficiency: 0.310 (31.00%)
 
 Network statistics: {'links_removed': 98; 'links_added': 105; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.2, 1.0),Total exchanged messages: 6305
+
+(10, 1000, 0.1, 0.2, 1.0, 'efficiency'),Total exchanged messages: 6305
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.308
+efficiency: 0.308 (30.80%)
 
 Network statistics: {'links_removed': 98; 'links_added': 103; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.3, 0.15),Total exchanged messages: 1100
+
+(10, 1000, 0.1, 0.3, 0.15, 'efficiency'),Total exchanged messages: 1100
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.251
+efficiency: 0.251 (25.09%)
 
 Network statistics: {'links_removed': 98; 'links_added': 107; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.3, 0.35),Total exchanged messages: 2072
+
+(10, 1000, 0.1, 0.3, 0.35, 'efficiency'),Total exchanged messages: 2072
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.350
+efficiency: 0.350 (35.04%)
 
 Network statistics: {'links_removed': 83; 'links_added': 92; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.3, 0.65),Total exchanged messages: 3697
+
+(10, 1000, 0.1, 0.3, 0.65, 'efficiency'),Total exchanged messages: 3697
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.339
+efficiency: 0.339 (33.87%)
 
 Network statistics: {'links_removed': 97; 'links_added': 105; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.3, 0.85),Total exchanged messages: 4922
+
+(10, 1000, 0.1, 0.3, 0.85, 'efficiency'),Total exchanged messages: 4922
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.319
+efficiency: 0.319 (31.90%)
 
 Network statistics: {'links_removed': 93; 'links_added': 98; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.1, 0.3, 1.0),Total exchanged messages: 5180
+
+(10, 1000, 0.1, 0.3, 1.0, 'efficiency'),Total exchanged messages: 5180
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.371
+efficiency: 0.371 (37.08%)
 
 Network statistics: {'links_removed': 98; 'links_added': 104; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.1, 0.15),Total exchanged messages: 2366
+
+(10, 1000, 0.2, 0.1, 0.15, 'efficiency'),Total exchanged messages: 2366
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.157
+efficiency: 0.157 (15.68%)
 
 Network statistics: {'links_removed': 200; 'links_added': 119; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.1, 0.35),Total exchanged messages: 4630
+
+(10, 1000, 0.2, 0.1, 0.35, 'efficiency'),Total exchanged messages: 4630
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.222
+efficiency: 0.222 (22.25%)
 
 Network statistics: {'links_removed': 223; 'links_added': 86; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.1, 0.65),Total exchanged messages: 7432
+
+(10, 1000, 0.2, 0.1, 0.65, 'efficiency'),Total exchanged messages: 7432
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.244
+efficiency: 0.244 (24.35%)
 
 Network statistics: {'links_removed': 183; 'links_added': 94; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.1, 0.85),Total exchanged messages: 9112
+
+(10, 1000, 0.2, 0.1, 0.85, 'efficiency'),Total exchanged messages: 9112
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.254
+efficiency: 0.254 (25.35%)
 
 Network statistics: {'links_removed': 203; 'links_added': 90; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.1, 1.0),Total exchanged messages: 9982
+
+(10, 1000, 0.2, 0.1, 1.0, 'efficiency'),Total exchanged messages: 9982
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.272
+efficiency: 0.272 (27.18%)
 
 Network statistics: {'links_removed': 201; 'links_added': 78; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.2, 0.15),Total exchanged messages: 1988
+
+(10, 1000, 0.2, 0.2, 0.15, 'efficiency'),Total exchanged messages: 1988
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.160
+efficiency: 0.160 (16.05%)
 
 Network statistics: {'links_removed': 204; 'links_added': 178; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.2, 0.35),Total exchanged messages: 3947
+
+(10, 1000, 0.2, 0.2, 0.35, 'efficiency'),Total exchanged messages: 3947
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.189
+efficiency: 0.189 (18.93%)
 
 Network statistics: {'links_removed': 187; 'links_added': 173; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.2, 0.65),Total exchanged messages: 6361
+
+(10, 1000, 0.2, 0.2, 0.65, 'efficiency'),Total exchanged messages: 6361
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.215
+efficiency: 0.215 (21.49%)
 
 Network statistics: {'links_removed': 187; 'links_added': 166; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.2, 0.85),Total exchanged messages: 7606
+
+(10, 1000, 0.2, 0.2, 0.85, 'efficiency'),Total exchanged messages: 7606
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.241
+efficiency: 0.241 (24.09%)
 
 Network statistics: {'links_removed': 195; 'links_added': 182; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.2, 1.0),Total exchanged messages: 8664
+
+(10, 1000, 0.2, 0.2, 1.0, 'efficiency'),Total exchanged messages: 8664
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.245
+efficiency: 0.245 (24.47%)
 
 Network statistics: {'links_removed': 191; 'links_added': 181; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.3, 0.15),Total exchanged messages: 1269
+
+(10, 1000, 0.2, 0.3, 0.15, 'efficiency'),Total exchanged messages: 1269
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.236
+efficiency: 0.236 (23.64%)
 
 Network statistics: {'links_removed': 205; 'links_added': 207; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.3, 0.35),Total exchanged messages: 2591
+
+(10, 1000, 0.2, 0.3, 0.35, 'efficiency'),Total exchanged messages: 2591
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.270
+efficiency: 0.270 (26.98%)
 
 Network statistics: {'links_removed': 196; 'links_added': 194; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.3, 0.65),Total exchanged messages: 3938
+
+(10, 1000, 0.2, 0.3, 0.65, 'efficiency'),Total exchanged messages: 3938
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.308
+efficiency: 0.308 (30.78%)
 
 Network statistics: {'links_removed': 183; 'links_added': 187; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.3, 0.85),Total exchanged messages: 6332
+
+(10, 1000, 0.2, 0.3, 0.85, 'efficiency'),Total exchanged messages: 6332
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.257
+efficiency: 0.257 (25.66%)
 
 Network statistics: {'links_removed': 183; 'links_added': 189; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.2, 0.3, 1.0),Total exchanged messages: 7470
+
+(10, 1000, 0.2, 0.3, 1.0, 'efficiency'),Total exchanged messages: 7470
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.257
+efficiency: 0.257 (25.68%)
 
 Network statistics: {'links_removed': 206; 'links_added': 206; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.1, 0.15),Total exchanged messages: 2539
+
+(10, 1000, 0.3, 0.1, 0.15, 'efficiency'),Total exchanged messages: 2539
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.190
+efficiency: 0.190 (18.98%)
 
 Network statistics: {'links_removed': 309; 'links_added': 89; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.1, 0.35),Total exchanged messages: 4340
+
+(10, 1000, 0.3, 0.1, 0.35, 'efficiency'),Total exchanged messages: 4340
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.214
+efficiency: 0.214 (21.43%)
 
 Network statistics: {'links_removed': 310; 'links_added': 108; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.1, 0.65),Total exchanged messages: 7009
+
+(10, 1000, 0.3, 0.1, 0.65, 'efficiency'),Total exchanged messages: 7009
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.267
+efficiency: 0.267 (26.72%)
 
 Network statistics: {'links_removed': 313; 'links_added': 86; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.1, 0.85),Total exchanged messages: 8265
+
+(10, 1000, 0.3, 0.1, 0.85, 'efficiency'),Total exchanged messages: 8265
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.283
+efficiency: 0.283 (28.26%)
 
 Network statistics: {'links_removed': 292; 'links_added': 101; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.1, 1.0),Total exchanged messages: 9650
+
+(10, 1000, 0.3, 0.1, 1.0, 'efficiency'),Total exchanged messages: 9650
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.285
+efficiency: 0.285 (28.49%)
 
 Network statistics: {'links_removed': 310; 'links_added': 87; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.2, 0.15),Total exchanged messages: 2321
+
+(10, 1000, 0.3, 0.2, 0.15, 'efficiency'),Total exchanged messages: 2321
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.145
+efficiency: 0.145 (14.52%)
 
 Network statistics: {'links_removed': 309; 'links_added': 198; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.2, 0.35),Total exchanged messages: 4902
+
+(10, 1000, 0.3, 0.2, 0.35, 'efficiency'),Total exchanged messages: 4902
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.175
+efficiency: 0.175 (17.52%)
 
 Network statistics: {'links_removed': 305; 'links_added': 197; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.2, 0.65),Total exchanged messages: 7861
+
+(10, 1000, 0.3, 0.2, 0.65, 'efficiency'),Total exchanged messages: 7861
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.201
+efficiency: 0.201 (20.06%)
 
 Network statistics: {'links_removed': 293; 'links_added': 207; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.2, 0.85),Total exchanged messages: 9717
+
+(10, 1000, 0.3, 0.2, 0.85, 'efficiency'),Total exchanged messages: 9717
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.211
+efficiency: 0.211 (21.06%)
 
 Network statistics: {'links_removed': 308; 'links_added': 195; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.2, 1.0),Total exchanged messages: 10615
+
+(10, 1000, 0.3, 0.2, 1.0, 'efficiency'),Total exchanged messages: 10615
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.229
+efficiency: 0.229 (22.92%)
 
 Network statistics: {'links_removed': 294; 'links_added': 200; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.3, 0.15),Total exchanged messages: 2107
+
+(10, 1000, 0.3, 0.3, 0.15, 'efficiency'),Total exchanged messages: 2107
 N nodes: 10; Time steps: 1000; p_request: 0.15; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.141
+efficiency: 0.141 (14.14%)
 
 Network statistics: {'links_removed': 300; 'links_added': 286; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.3, 0.35),Total exchanged messages: 2697
+
+(10, 1000, 0.3, 0.3, 0.35, 'efficiency'),Total exchanged messages: 2697
 N nodes: 10; Time steps: 1000; p_request: 0.35; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.252
+efficiency: 0.252 (25.21%)
 
 Network statistics: {'links_removed': 263; 'links_added': 251; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.3, 0.65),Total exchanged messages: 6082
+
+(10, 1000, 0.3, 0.3, 0.65, 'efficiency'),Total exchanged messages: 6082
 N nodes: 10; Time steps: 1000; p_request: 0.65; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.215
+efficiency: 0.215 (21.52%)
 
 Network statistics: {'links_removed': 282; 'links_added': 256; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.3, 0.85),Total exchanged messages: 9187
+
+(10, 1000, 0.3, 0.3, 0.85, 'efficiency'),Total exchanged messages: 9187
 N nodes: 10; Time steps: 1000; p_request: 0.85; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.189
+efficiency: 0.189 (18.92%)
 
 Network statistics: {'links_removed': 311; 'links_added': 275; 'nodes_added': 0; 'nodes_removed': 0}
-(10, 1000, 0.3, 0.3, 1.0),Total exchanged messages: 9881
+
+(10, 1000, 0.3, 0.3, 1.0, 'efficiency'),Total exchanged messages: 9881
 N nodes: 10; Time steps: 1000; p_request: 1.0; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.226
+efficiency: 0.226 (22.60%)
 
 Network statistics: {'links_removed': 319; 'links_added': 269; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.1, 0.15),Total exchanged messages: 268
+
+(30, 30, 0.1, 0.1, 0.15, 'efficiency'),Total exchanged messages: 268
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.034
+efficiency: 0.034 (3.36%)
 
 Network statistics: {'links_removed': 2; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.1, 0.35),Total exchanged messages: 930
+
+(30, 30, 0.1, 0.1, 0.35, 'efficiency'),Total exchanged messages: 930
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.053
+efficiency: 0.053 (5.27%)
 
 Network statistics: {'links_removed': 2; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.1, 0.65),Total exchanged messages: 1137
+
+(30, 30, 0.1, 0.1, 0.65, 'efficiency'),Total exchanged messages: 1137
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.069
+efficiency: 0.069 (6.86%)
 
 Network statistics: {'links_removed': 4; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.1, 0.85),Total exchanged messages: 1326
+
+(30, 30, 0.1, 0.1, 0.85, 'efficiency'),Total exchanged messages: 1326
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.062
+efficiency: 0.062 (6.18%)
 
 Network statistics: {'links_removed': 2; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.1, 1.0),Total exchanged messages: 1248
+
+(30, 30, 0.1, 0.1, 1.0, 'efficiency'),Total exchanged messages: 1248
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.076
+efficiency: 0.076 (7.61%)
 
 Network statistics: {'links_removed': 5; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.2, 0.15),Total exchanged messages: 286
+
+(30, 30, 0.1, 0.2, 0.15, 'efficiency'),Total exchanged messages: 286
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.049
+efficiency: 0.049 (4.90%)
 
 Network statistics: {'links_removed': 3; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.2, 0.35),Total exchanged messages: 858
+
+(30, 30, 0.1, 0.2, 0.35, 'efficiency'),Total exchanged messages: 858
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.063
+efficiency: 0.063 (6.29%)
 
 Network statistics: {'links_removed': 3; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.2, 0.65),Total exchanged messages: 1061
+
+(30, 30, 0.1, 0.2, 0.65, 'efficiency'),Total exchanged messages: 1061
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.068
+efficiency: 0.068 (6.79%)
 
 Network statistics: {'links_removed': 4; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.2, 0.85),Total exchanged messages: 1233
+
+(30, 30, 0.1, 0.2, 0.85, 'efficiency'),Total exchanged messages: 1233
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.075
+efficiency: 0.075 (7.54%)
 
 Network statistics: {'links_removed': 3; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.2, 1.0),Total exchanged messages: 1333
+
+(30, 30, 0.1, 0.2, 1.0, 'efficiency'),Total exchanged messages: 1333
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.083
+efficiency: 0.083 (8.33%)
 
 Network statistics: {'links_removed': 4; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.3, 0.15),Total exchanged messages: 438
+
+(30, 30, 0.1, 0.3, 0.15, 'efficiency'),Total exchanged messages: 438
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.043
+efficiency: 0.043 (4.34%)
 
 Network statistics: {'links_removed': 2; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.3, 0.35),Total exchanged messages: 573
+
+(30, 30, 0.1, 0.3, 0.35, 'efficiency'),Total exchanged messages: 573
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.061
+efficiency: 0.061 (6.11%)
 
 Network statistics: {'links_removed': 4; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.3, 0.65),Total exchanged messages: 1157
+
+(30, 30, 0.1, 0.3, 0.65, 'efficiency'),Total exchanged messages: 1157
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.054
+efficiency: 0.054 (5.36%)
 
 Network statistics: {'links_removed': 2; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.3, 0.85),Total exchanged messages: 1155
+
+(30, 30, 0.1, 0.3, 0.85, 'efficiency'),Total exchanged messages: 1155
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.081
+efficiency: 0.081 (8.14%)
 
 Network statistics: {'links_removed': 1; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.1, 0.3, 1.0),Total exchanged messages: 1383
+
+(30, 30, 0.1, 0.3, 1.0, 'efficiency'),Total exchanged messages: 1383
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.080
+efficiency: 0.080 (7.95%)
 
 Network statistics: {'links_removed': 3; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.1, 0.15),Total exchanged messages: 283
+
+(30, 30, 0.2, 0.1, 0.15, 'efficiency'),Total exchanged messages: 283
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.032
+efficiency: 0.032 (3.18%)
 
 Network statistics: {'links_removed': 6; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.1, 0.35),Total exchanged messages: 799
+
+(30, 30, 0.2, 0.1, 0.35, 'efficiency'),Total exchanged messages: 799
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.058
+efficiency: 0.058 (5.76%)
 
 Network statistics: {'links_removed': 7; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.1, 0.65),Total exchanged messages: 928
+
+(30, 30, 0.2, 0.1, 0.65, 'efficiency'),Total exchanged messages: 928
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.077
+efficiency: 0.077 (7.65%)
 
 Network statistics: {'links_removed': 7; 'links_added': 1; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.1, 0.85),Total exchanged messages: 1364
+
+(30, 30, 0.2, 0.1, 0.85, 'efficiency'),Total exchanged messages: 1364
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.066
+efficiency: 0.066 (6.60%)
 
 Network statistics: {'links_removed': 4; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.1, 1.0),Total exchanged messages: 1288
+
+(30, 30, 0.2, 0.1, 1.0, 'efficiency'),Total exchanged messages: 1288
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.077
+efficiency: 0.077 (7.69%)
 
 Network statistics: {'links_removed': 6; 'links_added': 2; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.2, 0.15),Total exchanged messages: 58
+
+(30, 30, 0.2, 0.2, 0.15, 'efficiency'),Total exchanged messages: 58
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.000
+efficiency: 0.000 (0.00%)
 
 Network statistics: {'links_removed': 7; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.2, 0.35),Total exchanged messages: 703
+
+(30, 30, 0.2, 0.2, 0.35, 'efficiency'),Total exchanged messages: 703
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.050
+efficiency: 0.050 (4.98%)
 
 Network statistics: {'links_removed': 5; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.2, 0.65),Total exchanged messages: 981
+
+(30, 30, 0.2, 0.2, 0.65, 'efficiency'),Total exchanged messages: 981
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.068
+efficiency: 0.068 (6.83%)
 
 Network statistics: {'links_removed': 6; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.2, 0.85),Total exchanged messages: 1140
+
+(30, 30, 0.2, 0.2, 0.85, 'efficiency'),Total exchanged messages: 1140
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.086
+efficiency: 0.086 (8.60%)
 
 Network statistics: {'links_removed': 4; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.2, 1.0),Total exchanged messages: 1440
+
+(30, 30, 0.2, 0.2, 1.0, 'efficiency'),Total exchanged messages: 1440
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.078
+efficiency: 0.078 (7.78%)
 
 Network statistics: {'links_removed': 4; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.3, 0.15),Total exchanged messages: 417
+
+(30, 30, 0.2, 0.3, 0.15, 'efficiency'),Total exchanged messages: 417
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.026
+efficiency: 0.026 (2.64%)
 
 Network statistics: {'links_removed': 7; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.3, 0.35),Total exchanged messages: 836
+
+(30, 30, 0.2, 0.3, 0.35, 'efficiency'),Total exchanged messages: 836
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.059
+efficiency: 0.059 (5.86%)
 
 Network statistics: {'links_removed': 8; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.3, 0.65),Total exchanged messages: 902
+
+(30, 30, 0.2, 0.3, 0.65, 'efficiency'),Total exchanged messages: 902
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.072
+efficiency: 0.072 (7.21%)
 
 Network statistics: {'links_removed': 6; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.3, 0.85),Total exchanged messages: 1140
+
+(30, 30, 0.2, 0.3, 0.85, 'efficiency'),Total exchanged messages: 1140
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.091
+efficiency: 0.091 (9.12%)
 
 Network statistics: {'links_removed': 5; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.2, 0.3, 1.0),Total exchanged messages: 1337
+
+(30, 30, 0.2, 0.3, 1.0, 'efficiency'),Total exchanged messages: 1337
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.076
+efficiency: 0.076 (7.55%)
 
 Network statistics: {'links_removed': 6; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.1, 0.15),Total exchanged messages: 190
+
+(30, 30, 0.3, 0.1, 0.15, 'efficiency'),Total exchanged messages: 190
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.026
+efficiency: 0.026 (2.63%)
 
 Network statistics: {'links_removed': 9; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.1, 0.35),Total exchanged messages: 723
+
+(30, 30, 0.3, 0.1, 0.35, 'efficiency'),Total exchanged messages: 723
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.061
+efficiency: 0.061 (6.09%)
 
 Network statistics: {'links_removed': 10; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.1, 0.65),Total exchanged messages: 784
+
+(30, 30, 0.3, 0.1, 0.65, 'efficiency'),Total exchanged messages: 784
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.056
+efficiency: 0.056 (5.61%)
 
 Network statistics: {'links_removed': 11; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.1, 0.85),Total exchanged messages: 1214
+
+(30, 30, 0.3, 0.1, 0.85, 'efficiency'),Total exchanged messages: 1214
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.069
+efficiency: 0.069 (6.92%)
 
 Network statistics: {'links_removed': 11; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.1, 1.0),Total exchanged messages: 1561
+
+(30, 30, 0.3, 0.1, 1.0, 'efficiency'),Total exchanged messages: 1561
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.076
+efficiency: 0.076 (7.62%)
 
 Network statistics: {'links_removed': 13; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.2, 0.15),Total exchanged messages: 34
+
+(30, 30, 0.3, 0.2, 0.15, 'efficiency'),Total exchanged messages: 34
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.059
+efficiency: 0.059 (5.88%)
 
 Network statistics: {'links_removed': 11; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.2, 0.35),Total exchanged messages: 666
+
+(30, 30, 0.3, 0.2, 0.35, 'efficiency'),Total exchanged messages: 666
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.060
+efficiency: 0.060 (6.01%)
 
 Network statistics: {'links_removed': 9; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.2, 0.65),Total exchanged messages: 858
+
+(30, 30, 0.3, 0.2, 0.65, 'efficiency'),Total exchanged messages: 858
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.058
+efficiency: 0.058 (5.83%)
 
 Network statistics: {'links_removed': 12; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.2, 0.85),Total exchanged messages: 1222
+
+(30, 30, 0.3, 0.2, 0.85, 'efficiency'),Total exchanged messages: 1222
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.070
+efficiency: 0.070 (7.04%)
 
 Network statistics: {'links_removed': 9; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.2, 1.0),Total exchanged messages: 1333
+
+(30, 30, 0.3, 0.2, 1.0, 'efficiency'),Total exchanged messages: 1333
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.091
+efficiency: 0.091 (9.08%)
 
 Network statistics: {'links_removed': 9; 'links_added': 3; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.3, 0.15),Total exchanged messages: 413
+
+(30, 30, 0.3, 0.3, 0.15, 'efficiency'),Total exchanged messages: 413
 N nodes: 30; Time steps: 30; p_request: 0.15; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.039
+efficiency: 0.039 (3.87%)
 
 Network statistics: {'links_removed': 8; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.3, 0.35),Total exchanged messages: 537
+
+(30, 30, 0.3, 0.3, 0.35, 'efficiency'),Total exchanged messages: 537
 N nodes: 30; Time steps: 30; p_request: 0.35; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.054
+efficiency: 0.054 (5.40%)
 
 Network statistics: {'links_removed': 14; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.3, 0.65),Total exchanged messages: 974
+
+(30, 30, 0.3, 0.3, 0.65, 'efficiency'),Total exchanged messages: 974
 N nodes: 30; Time steps: 30; p_request: 0.65; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.082
+efficiency: 0.082 (8.21%)
 
 Network statistics: {'links_removed': 8; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.3, 0.85),Total exchanged messages: 1191
+
+(30, 30, 0.3, 0.3, 0.85, 'efficiency'),Total exchanged messages: 1191
 N nodes: 30; Time steps: 30; p_request: 0.85; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.090
+efficiency: 0.090 (8.98%)
 
 Network statistics: {'links_removed': 6; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 30, 0.3, 0.3, 1.0),Total exchanged messages: 1556
+
+(30, 30, 0.3, 0.3, 1.0, 'efficiency'),Total exchanged messages: 1556
 N nodes: 30; Time steps: 30; p_request: 1.0; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.071
+efficiency: 0.071 (7.07%)
 
 Network statistics: {'links_removed': 10; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.1, 0.15),Total exchanged messages: 554
+
+(30, 60, 0.1, 0.1, 0.15, 'efficiency'),Total exchanged messages: 554
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.060
+efficiency: 0.060 (5.96%)
 
 Network statistics: {'links_removed': 5; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.1, 0.35),Total exchanged messages: 1415
+
+(30, 60, 0.1, 0.1, 0.35, 'efficiency'),Total exchanged messages: 1415
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.074
+efficiency: 0.074 (7.42%)
 
 Network statistics: {'links_removed': 4; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.1, 0.65),Total exchanged messages: 1520
+
+(30, 60, 0.1, 0.1, 0.65, 'efficiency'),Total exchanged messages: 1520
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.099
+efficiency: 0.099 (9.87%)
 
 Network statistics: {'links_removed': 7; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.1, 0.85),Total exchanged messages: 1904
+
+(30, 60, 0.1, 0.1, 0.85, 'efficiency'),Total exchanged messages: 1904
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.090
+efficiency: 0.090 (9.03%)
 
 Network statistics: {'links_removed': 6; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.1, 1.0),Total exchanged messages: 1969
+
+(30, 60, 0.1, 0.1, 1.0, 'efficiency'),Total exchanged messages: 1969
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.103
+efficiency: 0.103 (10.31%)
 
 Network statistics: {'links_removed': 9; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.2, 0.15),Total exchanged messages: 538
+
+(30, 60, 0.1, 0.2, 0.15, 'efficiency'),Total exchanged messages: 538
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.054
+efficiency: 0.054 (5.39%)
 
 Network statistics: {'links_removed': 6; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.2, 0.35),Total exchanged messages: 1213
+
+(30, 60, 0.1, 0.2, 0.35, 'efficiency'),Total exchanged messages: 1213
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.094
+efficiency: 0.094 (9.40%)
 
 Network statistics: {'links_removed': 5; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.2, 0.65),Total exchanged messages: 1751
+
+(30, 60, 0.1, 0.2, 0.65, 'efficiency'),Total exchanged messages: 1751
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.083
+efficiency: 0.083 (8.28%)
 
 Network statistics: {'links_removed': 7; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.2, 0.85),Total exchanged messages: 1847
+
+(30, 60, 0.1, 0.2, 0.85, 'efficiency'),Total exchanged messages: 1847
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.103
+efficiency: 0.103 (10.29%)
 
 Network statistics: {'links_removed': 8; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.2, 1.0),Total exchanged messages: 2249
+
+(30, 60, 0.1, 0.2, 1.0, 'efficiency'),Total exchanged messages: 2249
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.095
+efficiency: 0.095 (9.47%)
 
 Network statistics: {'links_removed': 8; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.3, 0.15),Total exchanged messages: 665
+
+(30, 60, 0.1, 0.3, 0.15, 'efficiency'),Total exchanged messages: 665
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.056
+efficiency: 0.056 (5.56%)
 
 Network statistics: {'links_removed': 5; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.3, 0.35),Total exchanged messages: 946
+
+(30, 60, 0.1, 0.3, 0.35, 'efficiency'),Total exchanged messages: 946
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.078
+efficiency: 0.078 (7.82%)
 
 Network statistics: {'links_removed': 5; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.3, 0.65),Total exchanged messages: 1609
+
+(30, 60, 0.1, 0.3, 0.65, 'efficiency'),Total exchanged messages: 1609
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.081
+efficiency: 0.081 (8.08%)
 
 Network statistics: {'links_removed': 9; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.3, 0.85),Total exchanged messages: 1743
+
+(30, 60, 0.1, 0.3, 0.85, 'efficiency'),Total exchanged messages: 1743
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.105
+efficiency: 0.105 (10.50%)
 
 Network statistics: {'links_removed': 5; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.1, 0.3, 1.0),Total exchanged messages: 2126
+
+(30, 60, 0.1, 0.3, 1.0, 'efficiency'),Total exchanged messages: 2126
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.102
+efficiency: 0.102 (10.21%)
 
 Network statistics: {'links_removed': 7; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.1, 0.15),Total exchanged messages: 551
+
+(30, 60, 0.2, 0.1, 0.15, 'efficiency'),Total exchanged messages: 551
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.044
+efficiency: 0.044 (4.36%)
 
 Network statistics: {'links_removed': 15; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.1, 0.35),Total exchanged messages: 1289
+
+(30, 60, 0.2, 0.1, 0.35, 'efficiency'),Total exchanged messages: 1289
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.066
+efficiency: 0.066 (6.59%)
 
 Network statistics: {'links_removed': 13; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.1, 0.65),Total exchanged messages: 1574
+
+(30, 60, 0.2, 0.1, 0.65, 'efficiency'),Total exchanged messages: 1574
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.094
+efficiency: 0.094 (9.40%)
 
 Network statistics: {'links_removed': 13; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.1, 0.85),Total exchanged messages: 1870
+
+(30, 60, 0.2, 0.1, 0.85, 'efficiency'),Total exchanged messages: 1870
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.094
+efficiency: 0.094 (9.36%)
 
 Network statistics: {'links_removed': 13; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.1, 1.0),Total exchanged messages: 2128
+
+(30, 60, 0.2, 0.1, 1.0, 'efficiency'),Total exchanged messages: 2128
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.100
+efficiency: 0.100 (10.01%)
 
 Network statistics: {'links_removed': 11; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.2, 0.15),Total exchanged messages: 484
+
+(30, 60, 0.2, 0.2, 0.15, 'efficiency'),Total exchanged messages: 484
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.039
+efficiency: 0.039 (3.93%)
 
 Network statistics: {'links_removed': 15; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.2, 0.35),Total exchanged messages: 1106
+
+(30, 60, 0.2, 0.2, 0.35, 'efficiency'),Total exchanged messages: 1106
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.079
+efficiency: 0.079 (7.87%)
 
 Network statistics: {'links_removed': 11; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.2, 0.65),Total exchanged messages: 1586
+
+(30, 60, 0.2, 0.2, 0.65, 'efficiency'),Total exchanged messages: 1586
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.092
+efficiency: 0.092 (9.21%)
 
 Network statistics: {'links_removed': 11; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.2, 0.85),Total exchanged messages: 2128
+
+(30, 60, 0.2, 0.2, 0.85, 'efficiency'),Total exchanged messages: 2128
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.093
+efficiency: 0.093 (9.30%)
 
 Network statistics: {'links_removed': 9; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.2, 1.0),Total exchanged messages: 2016
+
+(30, 60, 0.2, 0.2, 1.0, 'efficiency'),Total exchanged messages: 2016
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.112
+efficiency: 0.112 (11.21%)
 
 Network statistics: {'links_removed': 10; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.3, 0.15),Total exchanged messages: 707
+
+(30, 60, 0.2, 0.3, 0.15, 'efficiency'),Total exchanged messages: 707
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.037
+efficiency: 0.037 (3.68%)
 
 Network statistics: {'links_removed': 12; 'links_added': 16; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.3, 0.35),Total exchanged messages: 1283
+
+(30, 60, 0.2, 0.3, 0.35, 'efficiency'),Total exchanged messages: 1283
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.077
+efficiency: 0.077 (7.72%)
 
 Network statistics: {'links_removed': 13; 'links_added': 17; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.3, 0.65),Total exchanged messages: 1517
+
+(30, 60, 0.2, 0.3, 0.65, 'efficiency'),Total exchanged messages: 1517
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.090
+efficiency: 0.090 (9.03%)
 
 Network statistics: {'links_removed': 12; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.3, 0.85),Total exchanged messages: 1647
+
+(30, 60, 0.2, 0.3, 0.85, 'efficiency'),Total exchanged messages: 1647
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.120
+efficiency: 0.120 (12.02%)
 
 Network statistics: {'links_removed': 12; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.2, 0.3, 1.0),Total exchanged messages: 2063
+
+(30, 60, 0.2, 0.3, 1.0, 'efficiency'),Total exchanged messages: 2063
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.107
+efficiency: 0.107 (10.66%)
 
 Network statistics: {'links_removed': 14; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.1, 0.15),Total exchanged messages: 459
+
+(30, 60, 0.3, 0.1, 0.15, 'efficiency'),Total exchanged messages: 459
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.046
+efficiency: 0.046 (4.58%)
 
 Network statistics: {'links_removed': 20; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.1, 0.35),Total exchanged messages: 1206
+
+(30, 60, 0.3, 0.1, 0.35, 'efficiency'),Total exchanged messages: 1206
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.079
+efficiency: 0.079 (7.88%)
 
 Network statistics: {'links_removed': 21; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.1, 0.65),Total exchanged messages: 1475
+
+(30, 60, 0.3, 0.1, 0.65, 'efficiency'),Total exchanged messages: 1475
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.097
+efficiency: 0.097 (9.69%)
 
 Network statistics: {'links_removed': 22; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.1, 0.85),Total exchanged messages: 2125
+
+(30, 60, 0.3, 0.1, 0.85, 'efficiency'),Total exchanged messages: 2125
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.093
+efficiency: 0.093 (9.27%)
 
 Network statistics: {'links_removed': 24; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.1, 1.0),Total exchanged messages: 2729
+
+(30, 60, 0.3, 0.1, 1.0, 'efficiency'),Total exchanged messages: 2729
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.087
+efficiency: 0.087 (8.72%)
 
 Network statistics: {'links_removed': 24; 'links_added': 4; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.2, 0.15),Total exchanged messages: 338
+
+(30, 60, 0.3, 0.2, 0.15, 'efficiency'),Total exchanged messages: 338
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.041
+efficiency: 0.041 (4.14%)
 
 Network statistics: {'links_removed': 23; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.2, 0.35),Total exchanged messages: 1249
+
+(30, 60, 0.3, 0.2, 0.35, 'efficiency'),Total exchanged messages: 1249
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.080
+efficiency: 0.080 (8.01%)
 
 Network statistics: {'links_removed': 15; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.2, 0.65),Total exchanged messages: 1574
+
+(30, 60, 0.3, 0.2, 0.65, 'efficiency'),Total exchanged messages: 1574
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.088
+efficiency: 0.088 (8.77%)
 
 Network statistics: {'links_removed': 21; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.2, 0.85),Total exchanged messages: 1939
+
+(30, 60, 0.3, 0.2, 0.85, 'efficiency'),Total exchanged messages: 1939
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.090
+efficiency: 0.090 (9.03%)
 
 Network statistics: {'links_removed': 22; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.2, 1.0),Total exchanged messages: 1964
+
+(30, 60, 0.3, 0.2, 1.0, 'efficiency'),Total exchanged messages: 1964
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.115
+efficiency: 0.115 (11.46%)
 
 Network statistics: {'links_removed': 22; 'links_added': 6; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.3, 0.15),Total exchanged messages: 618
+
+(30, 60, 0.3, 0.3, 0.15, 'efficiency'),Total exchanged messages: 618
 N nodes: 30; Time steps: 60; p_request: 0.15; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.060
+efficiency: 0.060 (5.99%)
 
 Network statistics: {'links_removed': 15; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.3, 0.35),Total exchanged messages: 1151
+
+(30, 60, 0.3, 0.3, 0.35, 'efficiency'),Total exchanged messages: 1151
 N nodes: 30; Time steps: 60; p_request: 0.35; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.074
+efficiency: 0.074 (7.38%)
 
 Network statistics: {'links_removed': 23; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.3, 0.65),Total exchanged messages: 1440
+
+(30, 60, 0.3, 0.3, 0.65, 'efficiency'),Total exchanged messages: 1440
 N nodes: 30; Time steps: 60; p_request: 0.65; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.099
+efficiency: 0.099 (9.86%)
 
 Network statistics: {'links_removed': 17; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.3, 0.85),Total exchanged messages: 1725
+
+(30, 60, 0.3, 0.3, 0.85, 'efficiency'),Total exchanged messages: 1725
 N nodes: 30; Time steps: 60; p_request: 0.85; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.111
+efficiency: 0.111 (11.07%)
 
 Network statistics: {'links_removed': 12; 'links_added': 17; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 60, 0.3, 0.3, 1.0),Total exchanged messages: 2700
+
+(30, 60, 0.3, 0.3, 1.0, 'efficiency'),Total exchanged messages: 2700
 N nodes: 30; Time steps: 60; p_request: 1.0; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.083
+efficiency: 0.083 (8.26%)
 
 Network statistics: {'links_removed': 22; 'links_added': 16; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.1, 0.15),Total exchanged messages: 872
+
+(30, 100, 0.1, 0.1, 0.15, 'efficiency'),Total exchanged messages: 872
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.062
+efficiency: 0.062 (6.19%)
 
 Network statistics: {'links_removed': 9; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.1, 0.35),Total exchanged messages: 1664
+
+(30, 100, 0.1, 0.1, 0.35, 'efficiency'),Total exchanged messages: 1664
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.082
+efficiency: 0.082 (8.23%)
 
 Network statistics: {'links_removed': 5; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.1, 0.65),Total exchanged messages: 2010
+
+(30, 100, 0.1, 0.1, 0.65, 'efficiency'),Total exchanged messages: 2010
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.119
+efficiency: 0.119 (11.94%)
 
 Network statistics: {'links_removed': 11; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.1, 0.85),Total exchanged messages: 2612
+
+(30, 100, 0.1, 0.1, 0.85, 'efficiency'),Total exchanged messages: 2612
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.110
+efficiency: 0.110 (10.99%)
 
 Network statistics: {'links_removed': 7; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.1, 1.0),Total exchanged messages: 2808
+
+(30, 100, 0.1, 0.1, 1.0, 'efficiency'),Total exchanged messages: 2808
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.125
+efficiency: 0.125 (12.50%)
 
 Network statistics: {'links_removed': 15; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.2, 0.15),Total exchanged messages: 790
+
+(30, 100, 0.1, 0.2, 0.15, 'efficiency'),Total exchanged messages: 790
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.071
+efficiency: 0.071 (7.09%)
 
 Network statistics: {'links_removed': 10; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.2, 0.35),Total exchanged messages: 1477
+
+(30, 100, 0.1, 0.2, 0.35, 'efficiency'),Total exchanged messages: 1477
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.099
+efficiency: 0.099 (9.88%)
 
 Network statistics: {'links_removed': 6; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.2, 0.65),Total exchanged messages: 2077
+
+(30, 100, 0.1, 0.2, 0.65, 'efficiency'),Total exchanged messages: 2077
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.111
+efficiency: 0.111 (11.07%)
 
 Network statistics: {'links_removed': 10; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.2, 0.85),Total exchanged messages: 2286
+
+(30, 100, 0.1, 0.2, 0.85, 'efficiency'),Total exchanged messages: 2286
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.132
+efficiency: 0.132 (13.21%)
 
 Network statistics: {'links_removed': 9; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.2, 1.0),Total exchanged messages: 2885
+
+(30, 100, 0.1, 0.2, 1.0, 'efficiency'),Total exchanged messages: 2885
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.128
+efficiency: 0.128 (12.76%)
 
 Network statistics: {'links_removed': 12; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.3, 0.15),Total exchanged messages: 863
+
+(30, 100, 0.1, 0.3, 0.15, 'efficiency'),Total exchanged messages: 863
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.078
+efficiency: 0.078 (7.76%)
 
 Network statistics: {'links_removed': 7; 'links_added': 11; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.3, 0.35),Total exchanged messages: 1209
+
+(30, 100, 0.1, 0.3, 0.35, 'efficiency'),Total exchanged messages: 1209
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.091
+efficiency: 0.091 (9.10%)
 
 Network statistics: {'links_removed': 6; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.3, 0.65),Total exchanged messages: 2083
+
+(30, 100, 0.1, 0.3, 0.65, 'efficiency'),Total exchanged messages: 2083
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.097
+efficiency: 0.097 (9.70%)
 
 Network statistics: {'links_removed': 11; 'links_added': 14; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.3, 0.85),Total exchanged messages: 2504
+
+(30, 100, 0.1, 0.3, 0.85, 'efficiency'),Total exchanged messages: 2504
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.125
+efficiency: 0.125 (12.54%)
 
 Network statistics: {'links_removed': 6; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.1, 0.3, 1.0),Total exchanged messages: 2715
+
+(30, 100, 0.1, 0.3, 1.0, 'efficiency'),Total exchanged messages: 2715
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.137
+efficiency: 0.137 (13.66%)
 
 Network statistics: {'links_removed': 9; 'links_added': 13; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.1, 0.15),Total exchanged messages: 767
+
+(30, 100, 0.2, 0.1, 0.15, 'efficiency'),Total exchanged messages: 767
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.052
+efficiency: 0.052 (5.22%)
 
 Network statistics: {'links_removed': 26; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.1, 0.35),Total exchanged messages: 1499
+
+(30, 100, 0.2, 0.1, 0.35, 'efficiency'),Total exchanged messages: 1499
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.081
+efficiency: 0.081 (8.14%)
 
 Network statistics: {'links_removed': 19; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.1, 0.65),Total exchanged messages: 2358
+
+(30, 100, 0.2, 0.1, 0.65, 'efficiency'),Total exchanged messages: 2358
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.105
+efficiency: 0.105 (10.47%)
 
 Network statistics: {'links_removed': 19; 'links_added': 8; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.1, 0.85),Total exchanged messages: 2951
+
+(30, 100, 0.2, 0.1, 0.85, 'efficiency'),Total exchanged messages: 2951
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.117
+efficiency: 0.117 (11.69%)
 
 Network statistics: {'links_removed': 17; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.1, 1.0),Total exchanged messages: 3017
+
+(30, 100, 0.2, 0.1, 1.0, 'efficiency'),Total exchanged messages: 3017
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.127
+efficiency: 0.127 (12.73%)
 
 Network statistics: {'links_removed': 12; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.2, 0.15),Total exchanged messages: 705
+
+(30, 100, 0.2, 0.2, 0.15, 'efficiency'),Total exchanged messages: 705
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.047
+efficiency: 0.047 (4.68%)
 
 Network statistics: {'links_removed': 23; 'links_added': 17; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.2, 0.35),Total exchanged messages: 1439
+
+(30, 100, 0.2, 0.2, 0.35, 'efficiency'),Total exchanged messages: 1439
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.092
+efficiency: 0.092 (9.24%)
 
 Network statistics: {'links_removed': 14; 'links_added': 17; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.2, 0.65),Total exchanged messages: 2327
+
+(30, 100, 0.2, 0.2, 0.65, 'efficiency'),Total exchanged messages: 2327
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.108
+efficiency: 0.108 (10.79%)
 
 Network statistics: {'links_removed': 15; 'links_added': 18; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.2, 0.85),Total exchanged messages: 2743
+
+(30, 100, 0.2, 0.2, 0.85, 'efficiency'),Total exchanged messages: 2743
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.121
+efficiency: 0.121 (12.14%)
 
 Network statistics: {'links_removed': 14; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.2, 1.0),Total exchanged messages: 2717
+
+(30, 100, 0.2, 0.2, 1.0, 'efficiency'),Total exchanged messages: 2717
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.138
+efficiency: 0.138 (13.80%)
 
 Network statistics: {'links_removed': 16; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.3, 0.15),Total exchanged messages: 881
+
+(30, 100, 0.2, 0.3, 0.15, 'efficiency'),Total exchanged messages: 881
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.052
+efficiency: 0.052 (5.22%)
 
 Network statistics: {'links_removed': 19; 'links_added': 21; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.3, 0.35),Total exchanged messages: 1615
+
+(30, 100, 0.2, 0.3, 0.35, 'efficiency'),Total exchanged messages: 1615
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.092
+efficiency: 0.092 (9.23%)
 
 Network statistics: {'links_removed': 14; 'links_added': 18; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.3, 0.65),Total exchanged messages: 2153
+
+(30, 100, 0.2, 0.3, 0.65, 'efficiency'),Total exchanged messages: 2153
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.113
+efficiency: 0.113 (11.33%)
 
 Network statistics: {'links_removed': 19; 'links_added': 22; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.3, 0.85),Total exchanged messages: 2805
+
+(30, 100, 0.2, 0.3, 0.85, 'efficiency'),Total exchanged messages: 2805
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.121
+efficiency: 0.121 (12.09%)
 
 Network statistics: {'links_removed': 18; 'links_added': 20; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.2, 0.3, 1.0),Total exchanged messages: 3210
+
+(30, 100, 0.2, 0.3, 1.0, 'efficiency'),Total exchanged messages: 3210
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.121
+efficiency: 0.121 (12.12%)
 
 Network statistics: {'links_removed': 22; 'links_added': 23; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.1, 0.15),Total exchanged messages: 698
+
+(30, 100, 0.3, 0.1, 0.15, 'efficiency'),Total exchanged messages: 698
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.059
+efficiency: 0.059 (5.87%)
 
 Network statistics: {'links_removed': 32; 'links_added': 9; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.1, 0.35),Total exchanged messages: 1601
+
+(30, 100, 0.3, 0.1, 0.35, 'efficiency'),Total exchanged messages: 1601
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.086
+efficiency: 0.086 (8.56%)
 
 Network statistics: {'links_removed': 33; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.1, 0.65),Total exchanged messages: 2037
+
+(30, 100, 0.3, 0.1, 0.65, 'efficiency'),Total exchanged messages: 2037
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.116
+efficiency: 0.116 (11.63%)
 
 Network statistics: {'links_removed': 27; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.1, 0.85),Total exchanged messages: 3137
+
+(30, 100, 0.3, 0.1, 0.85, 'efficiency'),Total exchanged messages: 3137
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.119
+efficiency: 0.119 (11.92%)
 
 Network statistics: {'links_removed': 34; 'links_added': 5; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.1, 1.0),Total exchanged messages: 3665
+
+(30, 100, 0.3, 0.1, 1.0, 'efficiency'),Total exchanged messages: 3665
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.112
+efficiency: 0.112 (11.19%)
 
 Network statistics: {'links_removed': 29; 'links_added': 7; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.2, 0.15),Total exchanged messages: 555
+
+(30, 100, 0.3, 0.2, 0.15, 'efficiency'),Total exchanged messages: 555
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.068
+efficiency: 0.068 (6.85%)
 
 Network statistics: {'links_removed': 37; 'links_added': 10; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.2, 0.35),Total exchanged messages: 1596
+
+(30, 100, 0.3, 0.2, 0.35, 'efficiency'),Total exchanged messages: 1596
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.090
+efficiency: 0.090 (8.96%)
 
 Network statistics: {'links_removed': 24; 'links_added': 20; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.2, 0.65),Total exchanged messages: 2462
+
+(30, 100, 0.3, 0.2, 0.65, 'efficiency'),Total exchanged messages: 2462
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.100
+efficiency: 0.100 (10.03%)
 
 Network statistics: {'links_removed': 24; 'links_added': 20; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.2, 0.85),Total exchanged messages: 3065
+
+(30, 100, 0.3, 0.2, 0.85, 'efficiency'),Total exchanged messages: 3065
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.108
+efficiency: 0.108 (10.83%)
 
 Network statistics: {'links_removed': 27; 'links_added': 15; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.2, 1.0),Total exchanged messages: 3173
+
+(30, 100, 0.3, 0.2, 1.0, 'efficiency'),Total exchanged messages: 3173
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.129
+efficiency: 0.129 (12.92%)
 
 Network statistics: {'links_removed': 29; 'links_added': 12; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.3, 0.15),Total exchanged messages: 813
+
+(30, 100, 0.3, 0.3, 0.15, 'efficiency'),Total exchanged messages: 813
 N nodes: 30; Time steps: 100; p_request: 0.15; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.060
+efficiency: 0.060 (6.03%)
 
 Network statistics: {'links_removed': 27; 'links_added': 23; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.3, 0.35),Total exchanged messages: 1624
+
+(30, 100, 0.3, 0.3, 0.35, 'efficiency'),Total exchanged messages: 1624
 N nodes: 30; Time steps: 100; p_request: 0.35; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.084
+efficiency: 0.084 (8.44%)
 
 Network statistics: {'links_removed': 34; 'links_added': 20; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.3, 0.65),Total exchanged messages: 2210
+
+(30, 100, 0.3, 0.3, 0.65, 'efficiency'),Total exchanged messages: 2210
 N nodes: 30; Time steps: 100; p_request: 0.65; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.106
+efficiency: 0.106 (10.63%)
 
 Network statistics: {'links_removed': 22; 'links_added': 24; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.3, 0.85),Total exchanged messages: 2576
+
+(30, 100, 0.3, 0.3, 0.85, 'efficiency'),Total exchanged messages: 2576
 N nodes: 30; Time steps: 100; p_request: 0.85; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.129
+efficiency: 0.129 (12.93%)
 
 Network statistics: {'links_removed': 19; 'links_added': 23; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 100, 0.3, 0.3, 1.0),Total exchanged messages: 4150
+
+(30, 100, 0.3, 0.3, 1.0, 'efficiency'),Total exchanged messages: 4150
 N nodes: 30; Time steps: 100; p_request: 1.0; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.095
+efficiency: 0.095 (9.49%)
 
 Network statistics: {'links_removed': 32; 'links_added': 25; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.1, 0.15),Total exchanged messages: 3731
+
+(30, 1000, 0.1, 0.1, 0.15, 'efficiency'),Total exchanged messages: 3731
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.170
+efficiency: 0.170 (16.97%)
 
 Network statistics: {'links_removed': 93; 'links_added': 83; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.1, 0.35),Total exchanged messages: 9765
+
+(30, 1000, 0.1, 0.1, 0.35, 'efficiency'),Total exchanged messages: 9765
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.149
+efficiency: 0.149 (14.94%)
 
 Network statistics: {'links_removed': 83; 'links_added': 85; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.1, 0.65),Total exchanged messages: 12894
+
+(30, 1000, 0.1, 0.1, 0.65, 'efficiency'),Total exchanged messages: 12894
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.199
+efficiency: 0.199 (19.92%)
 
 Network statistics: {'links_removed': 97; 'links_added': 94; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.1, 0.85),Total exchanged messages: 18846
+
+(30, 1000, 0.1, 0.1, 0.85, 'efficiency'),Total exchanged messages: 18846
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.178
+efficiency: 0.178 (17.84%)
 
 Network statistics: {'links_removed': 100; 'links_added': 91; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.1, 1.0),Total exchanged messages: 20986
+
+(30, 1000, 0.1, 0.1, 1.0, 'efficiency'),Total exchanged messages: 20986
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.1; p_new: 0.1
-Efficiency (useful / total): 0.190
+efficiency: 0.190 (19.04%)
 
 Network statistics: {'links_removed': 104; 'links_added': 89; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.2, 0.15),Total exchanged messages: 3195
+
+(30, 1000, 0.1, 0.2, 0.15, 'efficiency'),Total exchanged messages: 3195
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.165
+efficiency: 0.165 (16.49%)
 
 Network statistics: {'links_removed': 98; 'links_added': 98; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.2, 0.35),Total exchanged messages: 6628
+
+(30, 1000, 0.1, 0.2, 0.35, 'efficiency'),Total exchanged messages: 6628
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.217
+efficiency: 0.217 (21.70%)
 
 Network statistics: {'links_removed': 93; 'links_added': 93; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.2, 0.65),Total exchanged messages: 8750
+
+(30, 1000, 0.1, 0.2, 0.65, 'efficiency'),Total exchanged messages: 8750
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.287
+efficiency: 0.287 (28.72%)
 
 Network statistics: {'links_removed': 100; 'links_added': 99; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.2, 0.85),Total exchanged messages: 11316
+
+(30, 1000, 0.1, 0.2, 0.85, 'efficiency'),Total exchanged messages: 11316
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.284
+efficiency: 0.284 (28.43%)
 
 Network statistics: {'links_removed': 98; 'links_added': 97; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.2, 1.0),Total exchanged messages: 17684
+
+(30, 1000, 0.1, 0.2, 1.0, 'efficiency'),Total exchanged messages: 17684
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.1; p_new: 0.2
-Efficiency (useful / total): 0.223
+efficiency: 0.223 (22.29%)
 
 Network statistics: {'links_removed': 95; 'links_added': 96; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.3, 0.15),Total exchanged messages: 3271
+
+(30, 1000, 0.1, 0.3, 0.15, 'efficiency'),Total exchanged messages: 3271
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.187
+efficiency: 0.187 (18.71%)
 
 Network statistics: {'links_removed': 86; 'links_added': 90; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.3, 0.35),Total exchanged messages: 5217
+
+(30, 1000, 0.1, 0.3, 0.35, 'efficiency'),Total exchanged messages: 5217
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.260
+efficiency: 0.260 (25.97%)
 
 Network statistics: {'links_removed': 87; 'links_added': 88; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.3, 0.65),Total exchanged messages: 8080
+
+(30, 1000, 0.1, 0.3, 0.65, 'efficiency'),Total exchanged messages: 8080
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.288
+efficiency: 0.288 (28.80%)
 
 Network statistics: {'links_removed': 105; 'links_added': 101; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.3, 0.85),Total exchanged messages: 11977
+
+(30, 1000, 0.1, 0.3, 0.85, 'efficiency'),Total exchanged messages: 11977
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.264
+efficiency: 0.264 (26.43%)
 
 Network statistics: {'links_removed': 84; 'links_added': 86; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.1, 0.3, 1.0),Total exchanged messages: 12734
+
+(30, 1000, 0.1, 0.3, 1.0, 'efficiency'),Total exchanged messages: 12734
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.1; p_new: 0.3
-Efficiency (useful / total): 0.299
+efficiency: 0.299 (29.88%)
 
 Network statistics: {'links_removed': 103; 'links_added': 102; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.1, 0.15),Total exchanged messages: 5806
+
+(30, 1000, 0.2, 0.1, 0.15, 'efficiency'),Total exchanged messages: 5806
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.130
+efficiency: 0.130 (12.97%)
 
 Network statistics: {'links_removed': 210; 'links_added': 105; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.1, 0.35),Total exchanged messages: 11034
+
+(30, 1000, 0.2, 0.1, 0.35, 'efficiency'),Total exchanged messages: 11034
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.158
+efficiency: 0.158 (15.83%)
 
 Network statistics: {'links_removed': 183; 'links_added': 96; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.1, 0.65),Total exchanged messages: 19284
+
+(30, 1000, 0.2, 0.1, 0.65, 'efficiency'),Total exchanged messages: 19284
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.157
+efficiency: 0.157 (15.73%)
 
 Network statistics: {'links_removed': 210; 'links_added': 86; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.1, 0.85),Total exchanged messages: 24639
+
+(30, 1000, 0.2, 0.1, 0.85, 'efficiency'),Total exchanged messages: 24639
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.176
+efficiency: 0.176 (17.55%)
 
 Network statistics: {'links_removed': 204; 'links_added': 88; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.1, 1.0),Total exchanged messages: 28152
+
+(30, 1000, 0.2, 0.1, 1.0, 'efficiency'),Total exchanged messages: 28152
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.2; p_new: 0.1
-Efficiency (useful / total): 0.176
+efficiency: 0.176 (17.59%)
 
 Network statistics: {'links_removed': 184; 'links_added': 91; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.2, 0.15),Total exchanged messages: 4128
+
+(30, 1000, 0.2, 0.2, 0.15, 'efficiency'),Total exchanged messages: 4128
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.133
+efficiency: 0.133 (13.32%)
 
 Network statistics: {'links_removed': 198; 'links_added': 187; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.2, 0.35),Total exchanged messages: 10604
+
+(30, 1000, 0.2, 0.2, 0.35, 'efficiency'),Total exchanged messages: 10604
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.133
+efficiency: 0.133 (13.31%)
 
 Network statistics: {'links_removed': 194; 'links_added': 185; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.2, 0.65),Total exchanged messages: 15963
+
+(30, 1000, 0.2, 0.2, 0.65, 'efficiency'),Total exchanged messages: 15963
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.163
+efficiency: 0.163 (16.28%)
 
 Network statistics: {'links_removed': 211; 'links_added': 192; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.2, 0.85),Total exchanged messages: 21723
+
+(30, 1000, 0.2, 0.2, 0.85, 'efficiency'),Total exchanged messages: 21723
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.158
+efficiency: 0.158 (15.79%)
 
 Network statistics: {'links_removed': 201; 'links_added': 165; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.2, 1.0),Total exchanged messages: 22979
+
+(30, 1000, 0.2, 0.2, 1.0, 'efficiency'),Total exchanged messages: 22979
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.2; p_new: 0.2
-Efficiency (useful / total): 0.176
+efficiency: 0.176 (17.55%)
 
 Network statistics: {'links_removed': 199; 'links_added': 191; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.3, 0.15),Total exchanged messages: 3217
+
+(30, 1000, 0.2, 0.3, 0.15, 'efficiency'),Total exchanged messages: 3217
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.164
+efficiency: 0.164 (16.44%)
 
 Network statistics: {'links_removed': 180; 'links_added': 181; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.3, 0.35),Total exchanged messages: 7410
+
+(30, 1000, 0.2, 0.3, 0.35, 'efficiency'),Total exchanged messages: 7410
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.191
+efficiency: 0.191 (19.06%)
 
 Network statistics: {'links_removed': 175; 'links_added': 172; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.3, 0.65),Total exchanged messages: 12370
+
+(30, 1000, 0.2, 0.3, 0.65, 'efficiency'),Total exchanged messages: 12370
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.201
+efficiency: 0.201 (20.10%)
 
 Network statistics: {'links_removed': 186; 'links_added': 185; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.3, 0.85),Total exchanged messages: 17666
+
+(30, 1000, 0.2, 0.3, 0.85, 'efficiency'),Total exchanged messages: 17666
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.189
+efficiency: 0.189 (18.94%)
 
 Network statistics: {'links_removed': 199; 'links_added': 196; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.2, 0.3, 1.0),Total exchanged messages: 18332
+
+(30, 1000, 0.2, 0.3, 1.0, 'efficiency'),Total exchanged messages: 18332
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.2; p_new: 0.3
-Efficiency (useful / total): 0.208
+efficiency: 0.208 (20.79%)
 
 Network statistics: {'links_removed': 196; 'links_added': 194; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.1, 0.15),Total exchanged messages: 5001
+
+(30, 1000, 0.3, 0.1, 0.15, 'efficiency'),Total exchanged messages: 5001
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.146
+efficiency: 0.146 (14.62%)
 
 Network statistics: {'links_removed': 309; 'links_added': 96; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.1, 0.35),Total exchanged messages: 12767
+
+(30, 1000, 0.3, 0.1, 0.35, 'efficiency'),Total exchanged messages: 12767
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.139
+efficiency: 0.139 (13.86%)
 
 Network statistics: {'links_removed': 282; 'links_added': 94; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.1, 0.65),Total exchanged messages: 19313
+
+(30, 1000, 0.3, 0.1, 0.65, 'efficiency'),Total exchanged messages: 19313
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.176
+efficiency: 0.176 (17.56%)
 
 Network statistics: {'links_removed': 286; 'links_added': 93; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.1, 0.85),Total exchanged messages: 26494
+
+(30, 1000, 0.3, 0.1, 0.85, 'efficiency'),Total exchanged messages: 26494
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.175
+efficiency: 0.175 (17.52%)
 
 Network statistics: {'links_removed': 318; 'links_added': 103; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.1, 1.0),Total exchanged messages: 32201
+
+(30, 1000, 0.3, 0.1, 1.0, 'efficiency'),Total exchanged messages: 32201
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.3; p_new: 0.1
-Efficiency (useful / total): 0.171
+efficiency: 0.171 (17.11%)
 
 Network statistics: {'links_removed': 290; 'links_added': 99; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.2, 0.15),Total exchanged messages: 5817
+
+(30, 1000, 0.3, 0.2, 0.15, 'efficiency'),Total exchanged messages: 5817
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.124
+efficiency: 0.124 (12.38%)
 
 Network statistics: {'links_removed': 317; 'links_added': 183; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.2, 0.35),Total exchanged messages: 12049
+
+(30, 1000, 0.3, 0.2, 0.35, 'efficiency'),Total exchanged messages: 12049
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.124
+efficiency: 0.124 (12.37%)
 
 Network statistics: {'links_removed': 309; 'links_added': 198; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.2, 0.65),Total exchanged messages: 20445
+
+(30, 1000, 0.3, 0.2, 0.65, 'efficiency'),Total exchanged messages: 20445
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.149
+efficiency: 0.149 (14.87%)
 
 Network statistics: {'links_removed': 297; 'links_added': 195; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.2, 0.85),Total exchanged messages: 28021
+
+(30, 1000, 0.3, 0.2, 0.85, 'efficiency'),Total exchanged messages: 28021
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.146
+efficiency: 0.146 (14.61%)
 
 Network statistics: {'links_removed': 289; 'links_added': 195; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.2, 1.0),Total exchanged messages: 30208
+
+(30, 1000, 0.3, 0.2, 1.0, 'efficiency'),Total exchanged messages: 30208
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.3; p_new: 0.2
-Efficiency (useful / total): 0.166
+efficiency: 0.166 (16.56%)
 
 Network statistics: {'links_removed': 299; 'links_added': 181; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.3, 0.15),Total exchanged messages: 5739
+
+(30, 1000, 0.3, 0.3, 0.15, 'efficiency'),Total exchanged messages: 5739
 N nodes: 30; Time steps: 1000; p_request: 0.15; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.110
+efficiency: 0.110 (10.96%)
 
 Network statistics: {'links_removed': 288; 'links_added': 273; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.3, 0.35),Total exchanged messages: 10732
+
+(30, 1000, 0.3, 0.3, 0.35, 'efficiency'),Total exchanged messages: 10732
 N nodes: 30; Time steps: 1000; p_request: 0.35; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.129
+efficiency: 0.129 (12.92%)
 
 Network statistics: {'links_removed': 293; 'links_added': 275; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.3, 0.65),Total exchanged messages: 15483
+
+(30, 1000, 0.3, 0.3, 0.65, 'efficiency'),Total exchanged messages: 15483
 N nodes: 30; Time steps: 1000; p_request: 0.65; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.159
+efficiency: 0.159 (15.91%)
 
 Network statistics: {'links_removed': 285; 'links_added': 267; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.3, 0.85),Total exchanged messages: 19379
+
+(30, 1000, 0.3, 0.3, 0.85, 'efficiency'),Total exchanged messages: 19379
 N nodes: 30; Time steps: 1000; p_request: 0.85; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.177
+efficiency: 0.177 (17.68%)
 
 Network statistics: {'links_removed': 267; 'links_added': 262; 'nodes_added': 0; 'nodes_removed': 0}
-(30, 1000, 0.3, 0.3, 1.0),Total exchanged messages: 28881
+
+(30, 1000, 0.3, 0.3, 1.0, 'efficiency'),Total exchanged messages: 28881
 N nodes: 30; Time steps: 1000; p_request: 1.0; p_fail: 0.3; p_new: 0.3
-Efficiency (useful / total): 0.147
+efficiency: 0.147 (14.67%)
 
 Network statistics: {'links_removed': 313; 'links_added': 284; 'nodes_added': 0; 'nodes_removed': 0}
 
-------------------------------------------------------------------------------------------------------------------------
-Some random arbitrary cases
-
-
-Total exchanged messages: 47233
-N nodes: 50, Time steps: 1000, p_request: 1.0, p_fail: 0.3, p_new: 0.3
-Efficiency: 0.089 (8.87%)
-
-Network statistics: {'links_removed': 299, 'links_added': 295, 'nodes_added': 0, 'nodes_removed': 0}
-
-Total exchanged messages: 9650
-N nodes: 10, Time steps: 1000, p_request: 1.0, p_fail: 0.3, p_new: 0.1
-Efficiency: 0.285 (28.49%)
-
-Network statistics: {'links_removed': 310, 'links_added': 87, 'nodes_added': 0, 'nodes_removed': 0}
-
-Total exchanged messages: 7207
-N nodes: 50, Time steps: 100, p_request: 1.0, p_fail: 0.3, p_new: 0.1
-Efficiency: 0.059 (5.91%)
-
-Network statistics: {'links_removed': 37, 'links_added': 11, 'nodes_added': 0, 'nodes_removed': 0}
-
-Total exchanged messages: 988
-N nodes: 10, Time steps: 100, p_request: 1.0, p_fail: 0.3, p_new: 0.3
-Efficiency: 0.240 (23.99%)
-
-Network statistics: {'links_removed': 27, 'links_added': 34, 'nodes_added': 0, 'nodes_removed': 0}
-
-Total exchanged messages: 137295
-N nodes: 150, Time steps: 1000, p_request: 1.0, p_fail: 0.3, p_new: 0.1
-Efficiency: 0.022 (2.24%)
-
-Network statistics: {'links_removed': 308, 'links_added': 102, 'nodes_added': 0, 'nodes_removed': 0}
-
-Total exchanged messages: 98965
-N nodes: 150, Time steps: 1000, p_request: 1.0, p_fail: 0.1, p_new: 0.1
-Efficiency: 0.030 (2.97%)
-
-Network statistics: {'links_removed': 102, 'links_added': 102, 'nodes_added': 0, 'nodes_removed': 0}
-
-Total exchanged messages: 6100
-N nodes: 8, Time steps: 1000, p_request: 1.0, p_fail: 0.1, p_new: 0.1
-Efficiency: 0.346 (34.62%)
-
-Network statistics: {'links_removed': 101, 'links_added': 89, 'nodes_added': 0, 'nodes_removed': 0}

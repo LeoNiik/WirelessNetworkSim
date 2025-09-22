@@ -17,5 +17,7 @@ In the ./output/visualization/ folder there is a visualization of the network.
 To run use:
 	'''
 	python3 simulation.py [options] 
+    python3 test_eff.py
+    streamlit run app.py
 	''' 
 	
